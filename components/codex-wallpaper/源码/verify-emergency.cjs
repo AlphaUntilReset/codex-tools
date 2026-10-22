@@ -84,7 +84,10 @@ End Class\n`;
   const own=targets.find(t=>t.type==='page');assert(own,'Chrome fixture missing');
   const emergency=path.join(fixture,'Emergency-Start.ps1');
   fs.writeFileSync(path.join(fixture,'AppxManifest.xml'),'<Package><Applications><Application Id="App" Executable="app/codex.exe" /></Applications></Package>');
-  fs.writeFileSync(emergency,'\ufeff'+fs.readFileSync(path.join(__dirname,'Emergency-Start.ps1'),'utf8').replace(/^\ufeff/,''));
+  // Recovery is best-effort in production. In this isolated fixture, surface
+  // every caught exception so a host/runtime failure cannot look like success.
+  const emergencySource=fs.readFileSync(path.join(__dirname,'Emergency-Start.ps1'),'utf8').replace(/^\ufeff/,'');
+  fs.writeFileSync(emergency,'\ufeff'+emergencySource.replace(/catch\s*\{\s*\}/g,'catch { throw }'));
   const wrapper=path.join(fixture,'verify.ps1');
   fs.writeFileSync(wrapper,'\ufeff'+`$ErrorActionPreference='Stop'
 function Get-AppxPackage {param($Name,$ErrorAction);[pscustomobject]@{InstallLocation=${quote(fixture)};PackageFamilyName='OpenAI.Codex_2p2nqsd0c76g0'}}
@@ -96,11 +99,11 @@ function Invoke-RestMethod {param($Uri,$TimeoutSec,$ErrorAction);if($Uri -ne 'ht
   const wrongOwner=path.join(fixture,'wrong-owner.ps1');
   fs.writeFileSync(wrongOwner,fs.readFileSync(wrapper,'utf8').replace('OwningProcess=777','OwningProcess=778'));
   const negative=spawnSync(ps,['-NoProfile','-ExecutionPolicy','Bypass','-File',wrongOwner],{encoding:'utf8',timeout:10000});
-  assert(negative.status===0,'Emergency negative fixture execution failed: '+negative.stderr);
+  assert(negative.status===0,'Emergency negative fixture execution failed: '+(negative.error?.message||'')+negative.stdout+negative.stderr);
   assert(await page.locator('#codex-sunfaded-local-theme').count()===1,'Cleanup touched port owned by an unrelated process');
   checks.push({test:'reject_unrelated_listener_owner',passed:true});
   const result=spawnSync(ps,['-NoProfile','-ExecutionPolicy','Bypass','-File',wrapper],{encoding:'utf8',timeout:10000});
-  assert(result.status===0,'Emergency fixture execution failed: '+result.stderr);
+  assert(result.status===0,'Emergency fixture execution failed: '+(result.error?.message||'')+result.stdout+result.stderr);
   const state=await page.evaluate(()=>({theme:!!document.getElementById('codex-sunfaded-local-theme'),palette:!!document.getElementById('codex-sidebar-palette-filter'),unrelated:!!document.getElementById('unrelated')}));
   assert(!state.theme&&!state.palette&&state.unrelated,'.NET cleanup failed or affected unrelated content: '+JSON.stringify(state));
   checks.push({test:'real_dotnet_cleanup_renamed_manifest_executable_isolated_chrome',passed:true,unrelatedPreserved:true});
