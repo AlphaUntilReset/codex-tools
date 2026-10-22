@@ -1,0 +1,16 @@
+Secure Hash Algorithm SHA-1
+
+Upstream attribution source: https://doc.qt.io/qt-6.11/qtcore-attribution-sha1.html
+Qt release: 6.11.2
+Retrieved: 2026-10-22
+
+The following copyright and license blocks are reproduced from the upstream
+attribution page, in source order. HTML markup is removed and entities decoded;
+license wording is unchanged. This notice does not imply the component is shipped.
+
+Copyright (C) Dominik Reichl <dominik.reichl@t-online.de>
+Copyright (C) 2016 The Qt Company Ltd
+
+100% free public domain implementation of the SHA-1 algorithm
+by Dominik Reichl <dominik.reichl@t-online.de>
+Web: http://www.dominik-reichl.de/

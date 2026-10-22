@@ -1,0 +1,78 @@
+/* SunFaded — local wallpaper for Codex Desktop.
+   Wallpaper is embedded by build_theme.py. No network image requests.
+   Token / app-shell mapping adapted from Cmochance/agent-theme (MIT).
+   All backgrounds share --sf-background-opacity; range 0..1. */
+:root {
+  --sf-background-opacity: .15;
+  --sf-image-opacity: var(--sf-background-opacity);
+  --sf-base: #fff;
+  --sf-glass: rgba(255,255,255,.66);
+  --sf-glass-strong: rgba(255,255,255,.94);
+  --sf-line: rgba(76,94,117,.13);
+}
+html.electron-dark, html.dark, html[data-theme="dark"] {
+  --sf-base: #17191e;
+  --sf-glass: rgba(23,25,30,.72);
+  --sf-glass-strong: rgba(23,25,30,.95);
+  --sf-line: rgba(205,214,228,.14);
+}
+html {
+  background: var(--sf-base) !important;
+  --color-token-main-surface-primary: transparent !important;
+  --color-background-surface: transparent !important;
+  --color-background-surface-under: transparent !important;
+  --color-token-side-bar-background: var(--sf-glass) !important;
+  --color-token-input-background: var(--sf-glass) !important;
+  --color-token-menu-background: var(--sf-glass-strong) !important;
+  --color-token-dropdown-background: var(--sf-glass-strong) !important;
+  --color-background-panel: var(--sf-glass-strong) !important;
+  --color-background-elevated-primary: var(--sf-glass-strong) !important;
+  --color-background-elevated-primary-opaque: var(--sf-glass-strong) !important;
+}
+body {
+  isolation: isolate;
+  background: transparent !important;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image: url('__IMAGE__');
+  background-size: cover;
+  background-position: 70% center;
+  background-repeat: no-repeat;
+  opacity: var(--sf-image-opacity);
+}
+#root, #root > *, .app-shell, .app-shell-main,
+main.main-surface, main.bg-surface, .app-shell-main-content-viewport,
+.app-shell-main-content-frame,
+[class*="_MainContentSurface_"],
+[class~="electron:bg-token-main-surface-primary"] {
+  background-color: transparent !important;
+}
+.app-shell-left-panel {
+  background: var(--sf-glass) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-right: 1px solid var(--sf-line);
+}
+.relative.flex.flex-col[class*="input-background"],
+[data-testid="composer"] {
+  background: var(--sf-glass) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--sf-line) !important;
+  box-shadow: 0 8px 30px rgba(28,39,54,.06) !important;
+}
+[role="dialog"], [role="menu"], [role="listbox"],
+[data-radix-menu-content] {
+  background-color: var(--sf-glass-strong) !important;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+/* Editors, code, terminal, status colors and click targets keep native styling. */
+@media (max-width: 800px) {
+  body::before { background-position: 78% center; }
+}

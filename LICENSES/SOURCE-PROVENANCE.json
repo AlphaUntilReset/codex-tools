@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "dependency_version": "6.11.2",
+  "verified_on": "2026-10-22",
+  "license_documents": [
+    {
+      "path": "LGPL-3.0-only.txt",
+      "source": "https://raw.githubusercontent.com/qt/qtbase/v6.11.2/LICENSES/LGPL-3.0-only.txt",
+      "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768"
+    },
+    {
+      "path": "GPL-3.0-only.txt",
+      "source": "https://raw.githubusercontent.com/qt/qtbase/v6.11.2/LICENSES/GPL-3.0-only.txt",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    }
+  ],
+  "upstream_sources": [
+    {
+      "component": "Qt for Python (PySide6 and Shiboken6)",
+      "version": "6.11.2",
+      "url": "https://download.qt.io/official_releases/QtForPython/pyside6/PySide6-6.11.2-src/pyside-setup-everywhere-src-6.11.2.zip",
+      "metadata_url": "https://download.qt.io/official_releases/QtForPython/pyside6/PySide6-6.11.2-src/pyside-setup-everywhere-src-6.11.2.zip.mirrorlist",
+      "bytes": 23134400,
+      "sha256": "c0fdd62b91a1d36d5ee2e1fb71050a32fbc93fcdeef0fdcb41d29afaaf00d9b5",
+      "hash_evidence": "official download metadata; archive not downloaded by this check"
+    },
+    {
+      "component": "Qt complete sources",
+      "version": "6.11.2",
+      "url": "https://download.qt.io/archive/qt/6.11/6.11.2/single/qt-everywhere-src-6.11.2.zip",
+      "metadata_url": "https://download.qt.io/archive/qt/6.11/6.11.2/single/qt-everywhere-src-6.11.2.zip.mirrorlist",
+      "bytes": 1627153946,
+      "sha256": "0bc81a7420e2d5c99ac241f5c37ca3fa3e666f91f178fbac4bb2b5de23b4757c",
+      "hash_evidence": "official download metadata; archive not downloaded by this check"
+    }
+  ]
+}

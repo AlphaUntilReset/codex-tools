@@ -1,0 +1,41 @@
+/* Modern Dance sidebar: repeated upper pattern + one bottom ending image.
+   Both original JPGs are embedded without editing, stretching or cropping files. */
+:root {
+  --sf-sidebar-opacity: .30;
+  --sf-sidebar-pattern-opacity: var(--sf-sidebar-opacity);
+  --sf-sidebar-ending-opacity: var(--sf-sidebar-opacity);
+}
+/* Observed conversation sidebar; excludes the separate 52px icon rail. */
+.sidebar-navigation[class*="_ConversationSidebar_"] {
+  position: relative;
+  isolation: isolate;
+  container-type: inline-size;
+  background-color: var(--sf-base, #fff) !important;
+}
+.sidebar-navigation[class*="_ConversationSidebar_"]::before,
+.sidebar-navigation[class*="_ConversationSidebar_"]::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-size: 100% auto;
+  background-position: center bottom;
+  /* Match only near-white / pale-yellow background pixels; preserve other colors. */
+  filter: url("#codex-sidebar-bg-match");
+}
+.sidebar-navigation[class*="_ConversationSidebar_"]::before {
+  top: 0;
+  bottom: min(100%, calc(100cqw * 842 / 864));
+  background-image: url('__REPEAT_IMAGE__');
+  background-repeat: repeat-y;
+  opacity: var(--sf-sidebar-pattern-opacity);
+}
+.sidebar-navigation[class*="_ConversationSidebar_"]::after {
+  bottom: 0;
+  height: min(100%, calc(100cqw * 842 / 864));
+  background-image: url('__ENDING_IMAGE__');
+  background-repeat: no-repeat;
+  opacity: var(--sf-sidebar-ending-opacity);
+}

@@ -1,0 +1,1334 @@
+{
+  "schema_version": 1,
+  "qt_release": "6.11.2",
+  "retrieved_on": "2026-10-22",
+  "index_url": "https://doc.qt.io/qt-6.11/licenses-used-in-qt.html",
+  "index_html_sha256": "c2cad0e2d2fc2e18a4a67dfe6f22d94c25be725f9a79cf9b4ceb41f101b14a5a",
+  "selection": "Every attribution page linked by the Qt 6.11.2 third-party index, plus Qt for Python third-party copyright/license blocks. Includes notices for components not shipped.",
+  "extraction": "All preformatted copyright and license text blocks in document order; HTML tags removed and entities decoded. No component source code, fonts, images, examples, binaries, or documentation navigation is included.",
+  "files": [
+    {
+      "file": "qt3d-attribution-imgui-proggyclean.txt",
+      "title": "Dear ImGui - ProggyClean.ttf",
+      "url": "https://doc.qt.io/qt-6.11/qt3d-attribution-imgui-proggyclean.html",
+      "upstream_html_sha256": "89df6948c525305b6ed0577bf50a7f33241e665c6eccb41ef82bcffddecd172b",
+      "sha256": "cf574f76431ff17ccefc06fd4d82a947b0144367e062077bc10cfa3d71ee0d49",
+      "bytes": 1514,
+      "blocks": 2
+    },
+    {
+      "file": "qt3d-attribution-imgui-stb.txt",
+      "title": "Dear ImGui - stb",
+      "url": "https://doc.qt.io/qt-6.11/qt3d-attribution-imgui-stb.html",
+      "upstream_html_sha256": "41b628e0470b1823df884db94d44c224fc24f46b2dce6dbdb08df1b0b96207e0",
+      "sha256": "f137a8ce1b460517490fb527b25c2a82271ef826b3c3022b276ae1d38651b844",
+      "bytes": 3088,
+      "blocks": 2
+    },
+    {
+      "file": "qt3d-attribution-imgui.txt",
+      "title": "Dear ImGui, version v1.91.0",
+      "url": "https://doc.qt.io/qt-6.11/qt3d-attribution-imgui.html",
+      "upstream_html_sha256": "753d2b9f96c31308a920ea418cd7040329283784524d63737c67bb73a7fb5ff3",
+      "sha256": "b3ad2a94d236f3972876c59ff6eb80607d59f76c5b4f114f24ea467597e07348",
+      "bytes": 1514,
+      "blocks": 2
+    },
+    {
+      "file": "qt3d-attribution-assimp.txt",
+      "title": "Open Asset Import Library, version 6.0.5",
+      "url": "https://doc.qt.io/qt-6.11/qt3d-attribution-assimp.html",
+      "upstream_html_sha256": "65c22b284c6ff5f09215587c7532c00d2ad7160a95e15852db557c5642cbb4dd",
+      "sha256": "b316e019cfe791e64b66b2ddc686eadd970604bb2d2864e6be11c33b4622e691",
+      "bytes": 4237,
+      "blocks": 2
+    },
+    {
+      "file": "qtcore5compat-attribution-qeucjpcodec.txt",
+      "title": "Text Codec: EUC-JP",
+      "url": "https://doc.qt.io/qt-6.11/qtcore5compat-attribution-qeucjpcodec.html",
+      "upstream_html_sha256": "6f4e6280ed7affc70a4224fa70319460ebb2a9401e4e008320045df84e7c23d0",
+      "sha256": "dea11eb1226dd398422c2d4a10705e1f4fd8870e096853e630608f38046805cf",
+      "bytes": 1725,
+      "blocks": 2
+    },
+    {
+      "file": "qtcore5compat-attribution-qeuckrcodec.txt",
+      "title": "Text Codec: EUC-KR",
+      "url": "https://doc.qt.io/qt-6.11/qtcore5compat-attribution-qeuckrcodec.html",
+      "upstream_html_sha256": "10b53d643bf4bdf94907e5c1ee2044ea85e1eac1beaf324ca16e7cdf375f40e0",
+      "sha256": "29e3cef092516456faf2e2be2f69880ca2a4146ebdba4fc1bef3e343f920e4fb",
+      "bytes": 1735,
+      "blocks": 2
+    },
+    {
+      "file": "qtcore5compat-attribution-qbkcodec.txt",
+      "title": "Text Codec: GBK",
+      "url": "https://doc.qt.io/qt-6.11/qtcore5compat-attribution-qbkcodec.html",
+      "upstream_html_sha256": "73e8a1dfc03b40be2c1db3bf69c9afb35ed401ffa0775f714c0a807931e35439",
+      "sha256": "1f5678aacfe6ccfaa85d4c6157b4f8aeed6613d0cef742164800f2d794987398",
+      "bytes": 2046,
+      "blocks": 2
+    },
+    {
+      "file": "qtcore5compat-attribution-qjiscodec.txt",
+      "title": "Text Codec: ISO 2022-JP (JIS)",
+      "url": "https://doc.qt.io/qt-6.11/qtcore5compat-attribution-qjiscodec.html",
+      "upstream_html_sha256": "2b1ba77a5c625101807a88c296497aefeefa45c5f35b4b6f0593a1a894e2af27",
+      "sha256": "f7d601c94dcd8e0a12da43498c5346ded32b2bc06c062378e72df582dfb4c039",
+      "bytes": 1734,
+      "blocks": 2
+    },
+    {
+      "file": "qtcore5compat-attribution-qsjiscodec.txt",
+      "title": "Text Codec: Shift-JIS",
+      "url": "https://doc.qt.io/qt-6.11/qtcore5compat-attribution-qsjiscodec.html",
+      "upstream_html_sha256": "6b48c8f47a91ae711eea822b58029cec8fd874b7f742e683eb91907fbdadeae8",
+      "sha256": "ad04eefc875a96db7b48663d3765b64a12be0f983ca3aceec4bd61edf3c1b927",
+      "bytes": 1727,
+      "blocks": 2
+    },
+    {
+      "file": "qtcore5compat-attribution-qtsciicodec.txt",
+      "title": "Text Codec: TSCII",
+      "url": "https://doc.qt.io/qt-6.11/qtcore5compat-attribution-qtsciicodec.html",
+      "upstream_html_sha256": "0ad22ce0c91c6adcb43bda71f9df4bc0dae902be69e6057217fe86cbed192358",
+      "sha256": "70c69e035c0cdb0fc6376e4973fa3ca500ee0ef93f6c3f66af45a40ddf9f4358",
+      "bytes": 1726,
+      "blocks": 2
+    },
+    {
+      "file": "qtcore5compat-attribution-qbig5codecs.txt",
+      "title": "Text Codecs: Big5, Big5-HKSCS",
+      "url": "https://doc.qt.io/qt-6.11/qtcore5compat-attribution-qbig5codecs.html",
+      "upstream_html_sha256": "89238d12ab6cc928c015d9bdba1cd1389285eeb33bcc88ae3800648b9db85942",
+      "sha256": "e760b220f841563a65065b1ca590661aa4708003c3b221a45bf3d3869c0f0cdc",
+      "bytes": 2033,
+      "blocks": 2
+    },
+    {
+      "file": "qtbluetooth-attribution-bluez.txt",
+      "title": "BlueZ",
+      "url": "https://doc.qt.io/qt-6.11/qtbluetooth-attribution-bluez.html",
+      "upstream_html_sha256": "40d88ebfa27b698220732f326c15cc9bf788ebc0c262a006cadefb9b3c5a9d2b",
+      "sha256": "c55593f683c2f80cce3c1d107767f7defb3b8717ada4f8361fdd16db5a7c7e8f",
+      "bytes": 18491,
+      "blocks": 2
+    },
+    {
+      "file": "qtcanvaspainter-attribution-nanovg.txt",
+      "title": "NanoVG, version f93799c",
+      "url": "https://doc.qt.io/qt-6.11/qtcanvaspainter-attribution-nanovg.html",
+      "upstream_html_sha256": "6748138ab327cdb715141a79a72b318cb27808d13e277717a7de21f3ac28efc8",
+      "sha256": "794bb547c9421040c9a0c2d2119ac229b245f214e5f372e3d373723b77419eeb",
+      "bytes": 1294,
+      "blocks": 2
+    },
+    {
+      "file": "qtcore-attribution-tika-mimetypes.txt",
+      "title": "Apache Tika MimeType Definitions, version c29724782854bb5a319f4a1940d0828a58ace3f9",
+      "url": "https://doc.qt.io/qt-6.11/qtcore-attribution-tika-mimetypes.html",
+      "upstream_html_sha256": "cc970077733934085d59d9346644b3bccc2792096b109fabded44a5318f5a55a",
+      "sha256": "744c85c48f2d807c1447bbac14af537baed1fdf4f6b0e1e9f972a10dc463414b",
+      "bytes": 10905,
+      "blocks": 2
+    },
+    {
+      "file": "qtcore-attribution-blake2.txt",
+      "title": "BLAKE2 (reference implementation), version ed1974ea83433eba7b2d95c5dcd9ac33cb847913",
+      "url": "https://doc.qt.io/qt-6.11/qtcore-attribution-blake2.html",
+      "upstream_html_sha256": "c15c5a2e7a8891002afaddc362e1ceaa8de667a112f33f8101d3dc5c2000512f",
+      "sha256": "276e1707ec0736dadca8f81686dfb795c3cfb0d0ebec300a548d2d301854bfb7",
+      "bytes": 18416,
+      "blocks": 2
+    },
+    {
+      "file": "qtcore-attribution-zlib.txt",
+      "title": "Data Compression Library (zlib), version 1.3.2",
+      "url": "https://doc.qt.io/qt-6.11/qtcore-attribution-zlib.html",
+      "upstream_html_sha256": "f09f85986a6e80fc34a0076f5525ea8ead43cfcab497503c80d5d6a5343a001b",
+      "sha256": "3c3c25f8ec002024db1640b5a91f9eeb1608a3bc09f31184bcdf6dbb292cb8c2",
+      "bytes": 1923,
+      "blocks": 2
+    },
+    {
+      "file": "qtcore-attribution-easing.txt",
+      "title": "Easing Equations by Robert Penner",
+      "url": "https://doc.qt.io/qt-6.11/qtcore-attribution-easing.html",
+      "upstream_html_sha256": "81e738ad0c214d81d0ff3dc4b22478f882e64ccbd558c681f816514c6accef95",
+      "sha256": "a73c1de4d9cd6bab90d9c7c1609235a92ef8dfbb3a5419b377a014135d76c4e9",
+      "bytes": 1942,
+      "blocks": 2
+    },
+    {
+      "file": "qtcore-attribution-doubleconversion.txt",
+      "title": "Efficient Binary-Decimal and Decimal-Binary Conversion Routines for IEEE Doubles, version 3.4.0",
+      "url": "https://doc.qt.io/qt-6.11/qtcore-attribution-doubleconversion.html",
+      "upstream_html_sha256": "8f278b0a3d0614bed2eff7f16401ebbe622389ee2a38acc93d717bcd44bade9d",
+      "sha256": "5a2e7f88da03b0d34f7517b5c6fa37270b9305e7f11c08ce2679aad7a8cf5a69",
+      "bytes": 2047,
+      "blocks": 2
+    },
+    {
+      "file": "qtcore-attribution-md4.txt",
+      "title": "MD4",
+      "url": "https://doc.qt.io/qt-6.11/qtcore-attribution-md4.html",
+      "upstream_html_sha256": "3cd379a71461e002d7c55b682b87f7f29f782455d03fec5a256fa3cf7695f62b",
+      "sha256": "a519575537f0a530a4faea05528b84f6923cf67ffeb5e419eee0ab6fc525bb26",
+      "bytes": 7578,
+      "blocks": 2
+    },
+    {
+      "file": "qtcore-attribution-md5.txt",
+      "title": "MD5",
+      "url": "https://doc.qt.io/qt-6.11/qtcore-attribution-md5.html",
+      "upstream_html_sha256": "5bdfc509285f1fda24a20ae5eb51e0318dcf0b1d5450f3c72962178fec88fb55",
+      "sha256": "df9993970e6117b7a01358213bcdc47a41ff1d31ec5a28550786089fc1535bd9",
+      "bytes": 7518,
+      "blocks": 2
+    },
+    {
+      "file": "qtcore-attribution-pcre2-sljit.txt",
+      "title": "PCRE2 - Stack-less Just-In-Time Compiler, version 10.47",
+      "url": "https://doc.qt.io/qt-6.11/qtcore-attribution-pcre2-sljit.html",
+      "upstream_html_sha256": "e3366f79c9623202a311ec2a6a535f3b1be57415dfbe3a5622945a6e30d6df4a",
+      "sha256": "1750db3adb299084a3dd6be7c71806b16174fad09a1b91bf8e1744d0937f9b31",
+      "bytes": 1900,
+      "blocks": 2
+    },
+    {
+      "file": "qtcore-attribution-pcre2.txt",
+      "title": "PCRE2, version 10.47",
+      "url": "https://doc.qt.io/qt-6.11/qtcore-attribution-pcre2.html",
+      "upstream_html_sha256": "879709e8fbdb8ab9491613b941eb5be2398f1215a4b1fdd21d3f0092dda9da53",
+      "sha256": "0131a42738f113040fd1ed517a2b8013a7405604287a129a270f07e592edb171",
+      "bytes": 4525,
+      "blocks": 2
+    },
+    {
+      "file": "qtcore-attribution-qeventdispatcher-cf.txt",
+      "title": "QEventDispatcher on macOS",
+      "url": "https://doc.qt.io/qt-6.11/qtcore-attribution-qeventdispatcher-cf.html",
+      "upstream_html_sha256": "9005ab8a6e81f57586b5e8c681d1f0ae18536056e4aaa142e90d99aa2fe6718a",
+      "sha256": "d075d7372b3f42e6ce0a06ed06ac104578bfa6f23f31c16bb70aa87e3a1d5c67",
+      "bytes": 1947,
+      "blocks": 2
+    },
+    {
+      "file": "qtcore-attribution-sha1.txt",
+      "title": "Secure Hash Algorithm SHA-1",
+      "url": "https://doc.qt.io/qt-6.11/qtcore-attribution-sha1.html",
+      "upstream_html_sha256": "c3452a11083c2cab9816f9e89b80abebacd2f65118bde19a6215dbd741335152",
+      "sha256": "b961437410fa6df5bf84f141b7a262fa6bb66aa8f97cda9d8d89b05a1a661687",
+      "bytes": 636,
+      "blocks": 2
+    },
+    {
+      "file": "qtcore-attribution-sha3-keccak.txt",
+      "title": "Secure Hash Algorithm SHA-3 - Keccak, version 3.2",
+      "url": "https://doc.qt.io/qt-6.11/qtcore-attribution-sha3-keccak.html",
+      "upstream_html_sha256": "e075c7dd7e3d4628b6da67afaea3a03861df87783bd3ea339aab2e6a441b2278",
+      "sha256": "e6743b151e1c091274ede3a779f487129ba2002266679a68d95b43ec36921c79",
+      "bytes": 7650,
+      "blocks": 2
+    },
+    {
+      "file": "qtcore-attribution-sha3-endian.txt",
+      "title": "Secure Hash Algorithm SHA-3 - brg_endian, version 1.0.0",
+      "url": "https://doc.qt.io/qt-6.11/qtcore-attribution-sha3-endian.html",
+      "upstream_html_sha256": "9cdc8643aedd71c2c7ecc14cec0efbae9dedd340f9671565e8df90fef1e1ea67",
+      "sha256": "0e9114bffab834cb7cd8fd3b73b568f8fc8c01fdb3a206ef0224a6edfff62586",
+      "bytes": 1152,
+      "blocks": 2
+    },
+    {
+      "file": "qtcore-attribution-rfc6234.txt",
+      "title": "Secure Hash Algorithms SHA-384 and SHA-512",
+      "url": "https://doc.qt.io/qt-6.11/qtcore-attribution-rfc6234.html",
+      "upstream_html_sha256": "70173325c5ac8e4a00601392b9f5ac5f568dbc226b99d3f6f4eb1be2eb17b134",
+      "sha256": "a43dfab12cd5f41bcfcc39110ea9959380ef77f44cfb26876c51957587e2d7dc",
+      "bytes": 2063,
+      "blocks": 2
+    },
+    {
+      "file": "qtcore-attribution-siphash.txt",
+      "title": "SipHash Algorithm",
+      "url": "https://doc.qt.io/qt-6.11/qtcore-attribution-siphash.html",
+      "upstream_html_sha256": "0f84aa28d13902be42d0afddc385456d47c81b75a3c3db530734170afe91991f",
+      "sha256": "f816439a1a8ec7e186a0141cfa79e93915b26890347251ce5bcd21ef60d15616",
+      "bytes": 7580,
+      "blocks": 2
+    },
+    {
+      "file": "qtcore-attribution-tinycbor.txt",
+      "title": "TinyCBOR, version 7.0",
+      "url": "https://doc.qt.io/qt-6.11/qtcore-attribution-tinycbor.html",
+      "upstream_html_sha256": "76e9342674266d8cadc12b3a27831a929c0748f9fb627016896329353c9755d3",
+      "sha256": "23a9bb1fa1ef3638578b1935cc4929962bd4b2f79ed1adb1876cf8ea36f48c2b",
+      "bytes": 1510,
+      "blocks": 2
+    },
+    {
+      "file": "qtcore-attribution-unicode-character-database.txt",
+      "title": "Unicode Character Database (UCD), version 36",
+      "url": "https://doc.qt.io/qt-6.11/qtcore-attribution-unicode-character-database.html",
+      "upstream_html_sha256": "440a13bb53a807615d74ee710da9092f96518345a42df60ed1627dabe79a0e00",
+      "sha256": "2c4ee0adc0261cc32e74b8be92f0430909d4c59244761517945271ebd1fbb91b",
+      "bytes": 2468,
+      "blocks": 2
+    },
+    {
+      "file": "qtcore-attribution-unicode-cldr.txt",
+      "title": "Unicode Common Locale Data Repository (CLDR), version v48.2",
+      "url": "https://doc.qt.io/qt-6.11/qtcore-attribution-unicode-cldr.html",
+      "upstream_html_sha256": "add84040ba01a848e4947edd9e1cb13992804467c1b7855edb651f538a608398",
+      "sha256": "6767edccbf92f732cbfd6f6eba66485e73be9c60dd83cba7610300595e7ecb33",
+      "bytes": 2469,
+      "blocks": 2
+    },
+    {
+      "file": "qtcore-attribution-forkfd.txt",
+      "title": "forkfd",
+      "url": "https://doc.qt.io/qt-6.11/qtcore-attribution-forkfd.html",
+      "upstream_html_sha256": "7cfcad8798f106495c8382a4359bc9a25f59dec2968aadb30d864cf98577bc6f",
+      "sha256": "ded5abc6bdae08c611a1d3c2e8ed34296f604e1a012f338949977a16103eb751",
+      "bytes": 1648,
+      "blocks": 2
+    },
+    {
+      "file": "qtcore-attribution-tlexpected.txt",
+      "title": "tl::expected, version 41d3e1f48d682992a2230b2a715bca38b848b269",
+      "url": "https://doc.qt.io/qt-6.11/qtcore-attribution-tlexpected.html",
+      "upstream_html_sha256": "5b10ad331f87c2c90c71fb27cc6830b8655106e3f75c8e07ea83a4229415e408",
+      "sha256": "2802874edcb6f3494309c4679d43e5883c5ee7af231e14a2696b060b301a4dde",
+      "bytes": 7657,
+      "blocks": 2
+    },
+    {
+      "file": "qtdbus-attribution-libdbus-1-headers.txt",
+      "title": "libdbus-1 headers, version 1.13.12",
+      "url": "https://doc.qt.io/qt-6.11/qtdbus-attribution-libdbus-1-headers.html",
+      "upstream_html_sha256": "36bfdf816d71fb74daad7e113752722e673b8e7757a79b7c772091b0468ba294",
+      "sha256": "a10b2692b2f72f8ab4c17203388a2b1a42431e86cc08d4edb29a3d28d0a22313",
+      "bytes": 27743,
+      "blocks": 2
+    },
+    {
+      "file": "qtgui-attribution-aglfn.txt",
+      "title": "Adobe Glyph List For New Fonts, version 1.7",
+      "url": "https://doc.qt.io/qt-6.11/qtgui-attribution-aglfn.html",
+      "upstream_html_sha256": "090a805cd5108a3bb90785b9b7f794c4b18d7ca10c200def97dc475b1e77b7a6",
+      "sha256": "a337eaa53cff05070561c52e54fae9fc875d03287ebfcd82459fccfbf29508dd",
+      "bytes": 1902,
+      "blocks": 2
+    },
+    {
+      "file": "qtgui-attribution-grayraster.txt",
+      "title": "Anti-aliasing rasterizer from FreeType 2",
+      "url": "https://doc.qt.io/qt-6.11/qtgui-attribution-grayraster.html",
+      "upstream_html_sha256": "fa24f4b9586cbdd6889bb09e9a3145915d74b187fc4af5213b3b520d4c7f5588",
+      "sha256": "6532dbca5a78bf09f81f20271a27676b25bd8d16420ac7b5ea8954932809614a",
+      "bytes": 26825,
+      "blocks": 2
+    },
+    {
+      "file": "qtgui-attribution-cocoa-platform-plugin.txt",
+      "title": "Cocoa Platform Plugin",
+      "url": "https://doc.qt.io/qt-6.11/qtgui-attribution-cocoa-platform-plugin.html",
+      "upstream_html_sha256": "43cf11cd33ef99aeefb093e2e79f354bc82a1cc7b3506b359abd3a9204dcf91d",
+      "sha256": "f9ca8d111c0bb311963e8643915c77026503c38fe666ca0c6f7b41000075e817",
+      "bytes": 1944,
+      "blocks": 2
+    },
+    {
+      "file": "qtgui-attribution-d3d12memoryallocator.txt",
+      "title": "D3D12 Memory Allocator, version f128d39b7a95b4235bd228d231646278dc6c24b2",
+      "url": "https://doc.qt.io/qt-6.11/qtgui-attribution-d3d12memoryallocator.html",
+      "upstream_html_sha256": "b745228f1c57810541575d17af228a460cf74fc13d77e25c8db9f3bad24f0da6",
+      "sha256": "e8b04a070a5bf5eb70de785cbe624785e5c8c667d290d7df4db5e5b06c809a90",
+      "bytes": 1629,
+      "blocks": 2
+    },
+    {
+      "file": "qtgui-attribution-dejayvu.txt",
+      "title": "DejaVu Fonts, version 2.37",
+      "url": "https://doc.qt.io/qt-6.11/qtgui-attribution-dejayvu.html",
+      "upstream_html_sha256": "a73b547586542bf7fa2248e3996b05c2598f659f9cded30e4acadb5273a5cc73",
+      "sha256": "38100690c326fb2a8fa7e054a5284354c10c73a91ec7206160873e2cd415e081",
+      "bytes": 9318,
+      "blocks": 2
+    },
+    {
+      "file": "qtgui-attribution-emoji-segmenter.txt",
+      "title": "Emoji Segmenter, version 0.4.0",
+      "url": "https://doc.qt.io/qt-6.11/qtgui-attribution-emoji-segmenter.html",
+      "upstream_html_sha256": "88d9ad1dafa942572491dc6b10bf2b03d51b821d6e4ad11974dcc95394cabadc",
+      "sha256": "3fd9f81b4867b0c1b0095205f57e9463cc5bb3a36f95c9e17f63342276ffa680",
+      "bytes": 10833,
+      "blocks": 2
+    },
+    {
+      "file": "qtgui-attribution-freetype-bdf.txt",
+      "title": "Freetype 2 - Bitmap Distribution Format (BDF) support",
+      "url": "https://doc.qt.io/qt-6.11/qtgui-attribution-freetype-bdf.html",
+      "upstream_html_sha256": "d208dd87b5b57587722abfabb045b18c871f671b966daabc449a038e7529a5ac",
+      "sha256": "657cc58c93df79b743e94f49bb28251e88f5113df6af004408283b3861ca9ad0",
+      "bytes": 2855,
+      "blocks": 2
+    },
+    {
+      "file": "qtgui-attribution-freetype-pcf.txt",
+      "title": "Freetype 2 - Portable Compiled Format (PCF) support",
+      "url": "https://doc.qt.io/qt-6.11/qtgui-attribution-freetype-pcf.html",
+      "upstream_html_sha256": "0ba332fc4446962c247393201f0f1ec8ca5bcaf5adf3bf599ddb0b14f57531aa",
+      "sha256": "25488507e22a5c40dff809dd129372b664f8856a42bd9b45cf5969b9e20768e4",
+      "bytes": 2814,
+      "blocks": 2
+    },
+    {
+      "file": "qtgui-attribution-freetype-zlib.txt",
+      "title": "Freetype 2 - zlib",
+      "url": "https://doc.qt.io/qt-6.11/qtgui-attribution-freetype-zlib.html",
+      "upstream_html_sha256": "3d762e1143a721f65b207a1d5e4970cd145a2dbeffa1c0064759a96040dec900",
+      "sha256": "d301f591283b1694170ca9cc90b81123e1df30a228821ab5092a1a12b3d8fb4e",
+      "bytes": 1412,
+      "blocks": 2
+    },
+    {
+      "file": "qtgui-attribution-freetype.txt",
+      "title": "Freetype 2, version 2.14.3",
+      "url": "https://doc.qt.io/qt-6.11/qtgui-attribution-freetype.html",
+      "upstream_html_sha256": "47d0068bf7ccc0044fa0af6dfa9718b2b494f4467604fa1202b8106a5febd8d0",
+      "sha256": "5604031d37b42e6efc496d355c239302ee1bae44b3c9c427f31575d84fc75ec9",
+      "bytes": 28718,
+      "blocks": 2
+    },
+    {
+      "file": "qtgui-attribution-harfbuzz-ng.txt",
+      "title": "HarfBuzz-NG, version 14.3.0",
+      "url": "https://doc.qt.io/qt-6.11/qtgui-attribution-harfbuzz-ng.html",
+      "upstream_html_sha256": "60c0117b6fb0bf0a50eed4b71ebc1f57629bf636ae9babd841c31be6df01c553",
+      "sha256": "9f7cd70f7fce41fc86a505f69278df679191fd053d1a335aab71b15ea9f72864",
+      "bytes": 3138,
+      "blocks": 2
+    },
+    {
+      "file": "qtgui-attribution-libjpeg.txt",
+      "title": "LibJPEG-turbo, version 3.2.0",
+      "url": "https://doc.qt.io/qt-6.11/qtgui-attribution-libjpeg.html",
+      "upstream_html_sha256": "78e44d48db72f43bf844539d9be8f6993aea770bf2bb256463f7b90b736c1668",
+      "sha256": "34a85255ef384518a5cae5f50a8f0e06a957c72eada4f9b2113b2ba0b3e2bb92",
+      "bytes": 8898,
+      "blocks": 3
+    },
+    {
+      "file": "qtgui-attribution-libpng.txt",
+      "title": "LibPNG, version 1.6.58",
+      "url": "https://doc.qt.io/qt-6.11/qtgui-attribution-libpng.html",
+      "upstream_html_sha256": "08480b3d18f2ad46aa26ef2a5876b43a3242dcbeadb51ba39b9de690ce13a0d1",
+      "sha256": "7438c67dd6007f6d3dc7d13b4a610d0ef1c4be5ec21cc77de10d6782001a7dbc",
+      "bytes": 6624,
+      "blocks": 2
+    },
+    {
+      "file": "qtgui-attribution-md4c.txt",
+      "title": "MD4C, version 0.5.3",
+      "url": "https://doc.qt.io/qt-6.11/qtgui-attribution-md4c.html",
+      "upstream_html_sha256": "35b39b528b4c6597faad0c68c60a8c11c25404fa4659d3e5f22b5c92179c490e",
+      "sha256": "1a52a93288735cfad44fec58dcc82c72148ff97cffe9f97ab1280e66ab7b61e7",
+      "bytes": 1520,
+      "blocks": 2
+    },
+    {
+      "file": "qtgui-attribution-rhi-miniengine-d3d12-mipmap.txt",
+      "title": "Mipmap generator for D3D12, version 0aa79bad78992da0b6a8279ddb9002c1753cb849",
+      "url": "https://doc.qt.io/qt-6.11/qtgui-attribution-rhi-miniengine-d3d12-mipmap.html",
+      "upstream_html_sha256": "858ae14cc9f8d1056ccf459c860c8f3e384c1f38d92a6cf04fe8473e7a2285e2",
+      "sha256": "49be10c47ba7da8220563483d6624f6c2dae3ca56988c98971534c81aa06c8f1",
+      "bytes": 1572,
+      "blocks": 2
+    },
+    {
+      "file": "qtgui-attribution-android-native-style.txt",
+      "title": "Native Style for Android",
+      "url": "https://doc.qt.io/qt-6.11/qtgui-attribution-android-native-style.html",
+      "upstream_html_sha256": "7b0354a08ad300587ee7638fa0254ff0445c79539e44ece1e17ef0dea9c01911",
+      "sha256": "12bf8189d576e499931dfd03d5f0f3fe45230c2defd5d6bd210ab4dc290f7d7f",
+      "bytes": 984,
+      "blocks": 2
+    },
+    {
+      "file": "qtgui-attribution-opengl-es2-headers.txt",
+      "title": "OpenGL ES 2 Headers, version Revision 27673",
+      "url": "https://doc.qt.io/qt-6.11/qtgui-attribution-opengl-es2-headers.html",
+      "upstream_html_sha256": "0b6d7f5b9e11e3ef063cc7874279b333638163c01c6f40cd5c98eddce1178013",
+      "sha256": "25791efc50bb2a9c337288727a1ff333fb20f265b59b59268e98145be26cf535",
+      "bytes": 1556,
+      "blocks": 2
+    },
+    {
+      "file": "qtgui-attribution-opengl-headers.txt",
+      "title": "OpenGL Headers, version Revision 27684",
+      "url": "https://doc.qt.io/qt-6.11/qtgui-attribution-opengl-headers.html",
+      "upstream_html_sha256": "6b97a63879947ec9185756a30f54df9a8886bf86a46b10ccbe291cb99d8925bc",
+      "sha256": "40c777bc5c8d3f37da15376a1f1ab56a589953238926b5ee65709dbe4931ac16",
+      "bytes": 1547,
+      "blocks": 2
+    },
+    {
+      "file": "qtgui-attribution-pixman.txt",
+      "title": "Pixman, version 0.17.12",
+      "url": "https://doc.qt.io/qt-6.11/qtgui-attribution-pixman.html",
+      "upstream_html_sha256": "f366f5361aabd425bb79add07d10feb16495a7511ae3b4c1751d24d23dfd93c0",
+      "sha256": "3b8b3e5e6620677bb8df216bedf0217ee372f893491f2c593e6c7ce58ba1023b",
+      "bytes": 1521,
+      "blocks": 2
+    },
+    {
+      "file": "qtgui-attribution-smooth-scaling-algorithm.txt",
+      "title": "Smooth Scaling Algorithm",
+      "url": "https://doc.qt.io/qt-6.11/qtgui-attribution-smooth-scaling-algorithm.html",
+      "upstream_html_sha256": "0a4f3a5564f163fffa407f1ffaee8398e466d68c21b0e3f55f6dcdd493b08d0e",
+      "sha256": "22be89a310b0d8a34f0e755a0df64f83c4dff1cde83acaadcd76c5e6aa0c15d3",
+      "bytes": 3542,
+      "blocks": 2
+    },
+    {
+      "file": "qtgui-attribution-vulkan-xml-spec.txt",
+      "title": "Vulkan API Registry, version 1.4.308",
+      "url": "https://doc.qt.io/qt-6.11/qtgui-attribution-vulkan-xml-spec.html",
+      "upstream_html_sha256": "1567670618ee88ee6653a1c1ebe7ad136fe6ee99542faae84022d762f34854da",
+      "sha256": "8439e34a2ff5e2838f15cb4dd9b7ae6bf2fc04d1d04add8b8599d73a2e4b3390",
+      "bytes": 11935,
+      "blocks": 2
+    },
+    {
+      "file": "qtgui-attribution-vulkanmemoryallocator.txt",
+      "title": "Vulkan Memory Allocator, version 3.2.1",
+      "url": "https://doc.qt.io/qt-6.11/qtgui-attribution-vulkanmemoryallocator.html",
+      "upstream_html_sha256": "ad5859b86279648b79efe3cecab89bcc528a2950800c39d33f52f3a3cd0fef71",
+      "sha256": "0bb1fd3d983cad1c934679213ba7c683681e8b3e11fbdb0c9ade7de1d815dd75",
+      "bytes": 1596,
+      "blocks": 2
+    },
+    {
+      "file": "qtgui-attribution-webgradients.txt",
+      "title": "WebGradients",
+      "url": "https://doc.qt.io/qt-6.11/qtgui-attribution-webgradients.html",
+      "upstream_html_sha256": "bef54bcbb1418256cc7a85f3f1a14126c65c8c00a4f6ae8eed7c7b296ee74155",
+      "sha256": "5f2fd301fc0b7cb64dede3710348160bd4c70400c92ab27e7b3081782cb10e5e",
+      "bytes": 1475,
+      "blocks": 2
+    },
+    {
+      "file": "qtgui-attribution-wintab.txt",
+      "title": "Wintab API",
+      "url": "https://doc.qt.io/qt-6.11/qtgui-attribution-wintab.html",
+      "upstream_html_sha256": "f5c13a0fa2a4eaa15993c9f15c3c05623b60dddd7bfac67239b408697270d22a",
+      "sha256": "877b2b821244a0de91c86f712ef62d69f4f4403184ba295b9a54efe1beced32b",
+      "bytes": 560,
+      "blocks": 2
+    },
+    {
+      "file": "qtgui-attribution-xserverhelper.txt",
+      "title": "X Server helper",
+      "url": "https://doc.qt.io/qt-6.11/qtgui-attribution-xserverhelper.html",
+      "upstream_html_sha256": "7197851c5e017b574f0168a55532ed7b1a1d3743a52209d4e0948dc5f8ddc8c9",
+      "sha256": "a8d098e035aa473b620e148fcd6e0097ded8b1b5124830ed3b2082b4c5d8cb45",
+      "bytes": 2803,
+      "blocks": 2
+    },
+    {
+      "file": "qtgui-attribution-xcb-xinput.txt",
+      "title": "XCB-XInput",
+      "url": "https://doc.qt.io/qt-6.11/qtgui-attribution-xcb-xinput.html",
+      "upstream_html_sha256": "b266935f105c1a16c12205175b9be6dc1fcf5d06768618523ad191028c64ab4d",
+      "sha256": "80bed148b2fa69e6d329857ff4864bc9cbfcf90842efa467af2c74c0888f8f5f",
+      "bytes": 1766,
+      "blocks": 2
+    },
+    {
+      "file": "qtgui-attribution-icc-srgb-color-profile.txt",
+      "title": "sRGB color profile icc file",
+      "url": "https://doc.qt.io/qt-6.11/qtgui-attribution-icc-srgb-color-profile.html",
+      "upstream_html_sha256": "3bf1d82ce29906d0a971f4dae45ae8b8bb2534ca948032e28f5858b3a785b6f4",
+      "sha256": "92c30608bca872363a0274c7675417f3ae0457b6b15ed04edadf29dd8f064e33",
+      "bytes": 923,
+      "blocks": 2
+    },
+    {
+      "file": "qtimageformats-attribution-libtiff.txt",
+      "title": "TIFF Software Distribution (libtiff), version 4.7.2",
+      "url": "https://doc.qt.io/qt-6.11/qtimageformats-attribution-libtiff.html",
+      "upstream_html_sha256": "99ee35115095573cf36147abbb1b968beb70aaf4ce684cb02fcaff5c2691e9a3",
+      "sha256": "86dbe8cab91eb8bf3ff32a319fd3dfb79a655e1bae6097ef0ec83589a59cc8e4",
+      "bytes": 1653,
+      "blocks": 2
+    },
+    {
+      "file": "qtimageformats-attribution-libwebp.txt",
+      "title": "WebP (libwebp), version 1.6.0",
+      "url": "https://doc.qt.io/qt-6.11/qtimageformats-attribution-libwebp.html",
+      "upstream_html_sha256": "1bbbe45609769041aab96b98538077c53d93ddbc113e0ca544b7bb1b1e036a25",
+      "sha256": "f8d260b8d6228b2d1cc2de6f36ea79fff8da1634ee3f3010b20da0e4aeddb016",
+      "bytes": 1957,
+      "blocks": 2
+    },
+    {
+      "file": "qtmultimedia-attribution-dr-libs.txt",
+      "title": "DR Libs, version 0.14.5",
+      "url": "https://doc.qt.io/qt-6.11/qtmultimedia-attribution-dr-libs.html",
+      "upstream_html_sha256": "86c923383ff9aa9df0571dded114bb5c45f1465e75e38782f9b494fa2c88e813",
+      "sha256": "56011055d4b671d034a14cbba5a973b768c0c8de0a402fc216b75b262d2d60d5",
+      "bytes": 2998,
+      "blocks": 1
+    },
+    {
+      "file": "qtmultimedia-attribution-ffmpeg.txt",
+      "title": "FFmpeg, version 7.1.3",
+      "url": "https://doc.qt.io/qt-6.11/qtmultimedia-attribution-ffmpeg.html",
+      "upstream_html_sha256": "3b44055a6705e587bb433b169e7573aca75b1e24fd62e906a2159a44d28d172c",
+      "sha256": "909da9ed616986f385dfce8f1bcc86390c276b3ff01afe299f67ba5e1dcbce13",
+      "bytes": 49019,
+      "blocks": 8
+    },
+    {
+      "file": "qtmultimedia-attribution-signalsmith-stretch.txt",
+      "title": "Signalsmith Stretch, version 1.0.0",
+      "url": "https://doc.qt.io/qt-6.11/qtmultimedia-attribution-signalsmith-stretch.html",
+      "upstream_html_sha256": "ce82774063222593364653b94074aa1a178462cbcaaf972f55cf8c578305b06e",
+      "sha256": "f45a73d7e2a1c2292d40a57109868d9eb8b8c406e889eeb7174551f03da764cd",
+      "bytes": 1575,
+      "blocks": 2
+    },
+    {
+      "file": "qtmultimedia-attribution-tlfs.txt",
+      "title": "Two-Level Segregated Fit, version v3.1",
+      "url": "https://doc.qt.io/qt-6.11/qtmultimedia-attribution-tlfs.html",
+      "upstream_html_sha256": "0734ba081864e648485aa20624e95e604d0e289c8030561f205a98ec71ab0896",
+      "sha256": "cc809098a52824b5952ecaf81bc441f80ad25780f8f6f7814332514878046c23",
+      "bytes": 1921,
+      "blocks": 2
+    },
+    {
+      "file": "qtmultimedia-attribution-ffmpeg-boost.txt",
+      "title": "boost",
+      "url": "https://doc.qt.io/qt-6.11/qtmultimedia-attribution-ffmpeg-boost.html",
+      "upstream_html_sha256": "bc361978989bb70cb18cbff19af5f53fcd7b6767599dd181fb59743208d0f827",
+      "sha256": "584325a63a303099262088237345236113c92f2ef74345fff352e1aa4f5a592e",
+      "bytes": 1793,
+      "blocks": 2
+    },
+    {
+      "file": "qtmultimedia-attribution-ffmpeg-libjpeg.txt",
+      "title": "libjpeg",
+      "url": "https://doc.qt.io/qt-6.11/qtmultimedia-attribution-ffmpeg-libjpeg.html",
+      "upstream_html_sha256": "b4c863b38764227debb661e58972b3dfd0eb78b42e8b28387f02527cf7f6e408",
+      "sha256": "e32a84963fae853e82ebff02504b08b61ae9ca3967cd21c046be4442f1c37507",
+      "bytes": 4695,
+      "blocks": 2
+    },
+    {
+      "file": "qtmultimedia-attribution-ffmpeg-zlib.txt",
+      "title": "zlib",
+      "url": "https://doc.qt.io/qt-6.11/qtmultimedia-attribution-ffmpeg-zlib.html",
+      "upstream_html_sha256": "79422e12d70b68485d46c043305d3a72305e3b7ea8c27661309394956b3aa0fa",
+      "sha256": "9e19153819d44146e6a9b8ccf6ab6cbff3170345fb12e4fe8ef46d2a22e03cfb",
+      "bytes": 1281,
+      "blocks": 2
+    },
+    {
+      "file": "qtnetwork-attribution-psl-data.txt",
+      "title": "The Public Suffix List, version 2026-05-14_08-35-31_UTC",
+      "url": "https://doc.qt.io/qt-6.11/qtnetwork-attribution-psl-data.html",
+      "upstream_html_sha256": "83b681de0f730eeb762abf146189e80f61dbed3b1c70b2897bb4fc036d673af9",
+      "sha256": "7a590b1305d1b2319885fcee32b47dad7f829287b95041a83da51d6c21c44122",
+      "bytes": 17299,
+      "blocks": 2
+    },
+    {
+      "file": "qtnetwork-attribution-libpsl.txt",
+      "title": "libpsl - C library to handle the Public Suffix List, version 664f3dc85259ec65e30248a61fa1c45b7b0e4c3f",
+      "url": "https://doc.qt.io/qt-6.11/qtnetwork-attribution-libpsl.html",
+      "upstream_html_sha256": "7fad81d9a5f2dd2f04f4e323f2a89d5d292dd100f53a44c2fb3f211dbc9d609b",
+      "sha256": "56aaaa6b2be2f89ae9652e473a545a4f8ff3c201772b6cce157636af9f217044",
+      "bytes": 2202,
+      "blocks": 2
+    },
+    {
+      "file": "qtopcua-attribution-open62541.txt",
+      "title": "Open62541, version 1.4.14",
+      "url": "https://doc.qt.io/qt-6.11/qtopcua-attribution-open62541.html",
+      "upstream_html_sha256": "8ef30fe886bd2782839f0a336e4b78ab2607669190f7d75a8167571c55870f59",
+      "sha256": "cacafdce637a8c44115a5dfcc107c55da2ff1a947972a4be1a63aadfd3d7dbaf",
+      "bytes": 58250,
+      "blocks": 7
+    },
+    {
+      "file": "qtpositioning-attribution-clip2tri.txt",
+      "title": "Clip2Tri Polygon Triangulation Library, version commit f62a734d22733814b8a970ed8a68a4d94c24fa5f",
+      "url": "https://doc.qt.io/qt-6.11/qtpositioning-attribution-clip2tri.html",
+      "upstream_html_sha256": "d5bd7ae35bffdf7aa23ecb9ef40af9bb8c7a0ae5af3da76af667c86721cecb6e",
+      "sha256": "2a6dafe0673563a1ca771c4483cf8a13fa41cd70a93ddea75fca1e9f4147cf22",
+      "bytes": 1604,
+      "blocks": 2
+    },
+    {
+      "file": "qtpositioning-attribution-clipper.txt",
+      "title": "Clipper Polygon Clipping Library, version 6.4.2",
+      "url": "https://doc.qt.io/qt-6.11/qtpositioning-attribution-clipper.html",
+      "upstream_html_sha256": "82021bf5396447da3b3d478826d40432a8da35f950a16d8b076df1f4c10a825d",
+      "sha256": "b151e100b4911df9333540aadc5eb34fa10140d4d9ee803837d1df9eb670ea77",
+      "bytes": 2730,
+      "blocks": 2
+    },
+    {
+      "file": "qtpositioning-attribution-poly2tri.txt",
+      "title": "Poly2Tri Polygon Triangulation Library, version commit a922022da4c0d3a55b1d6b6d634219caea653053",
+      "url": "https://doc.qt.io/qt-6.11/qtpositioning-attribution-poly2tri.html",
+      "upstream_html_sha256": "716beaed9653f05a7bdd701cd40d421d790fa3c4b066ed3fd2bcf25c0499f232",
+      "sha256": "2669747618d5436cb1050db567c570b932d980081546023da839853152fe212d",
+      "bytes": 2064,
+      "blocks": 2
+    },
+    {
+      "file": "qtqml-attribution-masm.txt",
+      "title": "JavaScriptCore Macro Assembler",
+      "url": "https://doc.qt.io/qt-6.11/qtqml-attribution-masm.html",
+      "upstream_html_sha256": "43b1232ec24f3f3f495d51023514c594b2a69acda8fd2b8079088bdb240df4d1",
+      "sha256": "021c5dbc32c4b4fc2b41707e21b8e0bfd45fa804f80450bc131b52b3d7e48dc7",
+      "bytes": 2466,
+      "blocks": 2
+    },
+    {
+      "file": "qtquick-attribution-yoga.txt",
+      "title": "Yoga, version 2.0.1",
+      "url": "https://doc.qt.io/qt-6.11/qtquick-attribution-yoga.html",
+      "upstream_html_sha256": "148767c27f7e2643b3a4f384fb9e43bc1655b7261a1dda001f7aa9dfc168ab03",
+      "sha256": "f245c31b4e99c3534f883d3c1fb555ac9743f267167dada812c416831c6bc7ab",
+      "bytes": 1575,
+      "blocks": 2
+    },
+    {
+      "file": "qtquick3d-attribution-svgrepo-baked.txt",
+      "title": "Bake",
+      "url": "https://doc.qt.io/qt-6.11/qtquick3d-attribution-svgrepo-baked.html",
+      "upstream_html_sha256": "ef6ad0f33f467f71bbd9e9bd3fbd40d7eb7fbb171be4fe123033e86f15163a8f",
+      "sha256": "0cf2b26dd56cbeffaf1df130af8739007bbf6a6366575e3af8760a5e6ce27ffd",
+      "bytes": 7442,
+      "blocks": 2
+    },
+    {
+      "file": "qtquick3d-attribution-blue-noise-texture.txt",
+      "title": "Blue Noise Texture",
+      "url": "https://doc.qt.io/qt-6.11/qtquick3d-attribution-blue-noise-texture.html",
+      "upstream_html_sha256": "a41026389124a6b8ee5d4f82ccf8490aea983c55b12cd704efc07fa7a7fb4326",
+      "sha256": "8c78e94f215372cba0b7b46cf7d65a0e58bc065cb8ed5d393c14b9309369f466",
+      "bytes": 7476,
+      "blocks": 2
+    },
+    {
+      "file": "qtquick3d-attribution-svgrepo-camera-viewfinder.txt",
+      "title": "Camera Viewfinder",
+      "url": "https://doc.qt.io/qt-6.11/qtquick3d-attribution-svgrepo-camera-viewfinder.html",
+      "upstream_html_sha256": "79e6b5bb9b94b3f9ce8622dce9a1894cc71f999b8d77fe7e3e7ce46a59e7698f",
+      "sha256": "348a940587f947d75146ed2c1fa1ab70797786bac9e1531bc2772b5d376b88da",
+      "bytes": 1528,
+      "blocks": 2
+    },
+    {
+      "file": "qtquick3d-attribution-svgrepo-colosseum.txt",
+      "title": "Colosseum",
+      "url": "https://doc.qt.io/qt-6.11/qtquick3d-attribution-svgrepo-colosseum.html",
+      "upstream_html_sha256": "11b80854e2a63f7cc38d04368462cde8f528cb0d8c1bd791342ea1be85bead91",
+      "sha256": "15114364a0c0b47b2fb4ac1c0c55cc499e703514e3df98c5de0ad46ad6270541",
+      "bytes": 7451,
+      "blocks": 2
+    },
+    {
+      "file": "qtquick3d-attribution-grid.txt",
+      "title": "Cornell",
+      "url": "https://doc.qt.io/qt-6.11/qtquick3d-attribution-grid.html",
+      "upstream_html_sha256": "fd683cf4b573af1c3c5079d49198846df802cb2ae88890f5f3f196c40efa1bb2",
+      "sha256": "4be460dbeeaf9518404a3084217cbb876f8eea7bbce2ef04cfdfc7c44b3aadc8",
+      "bytes": 7442,
+      "blocks": 2
+    },
+    {
+      "file": "qtquick3d-attribution-fog.txt",
+      "title": "Godot Engine: Fog",
+      "url": "https://doc.qt.io/qt-6.11/qtquick3d-attribution-fog.html",
+      "upstream_html_sha256": "e008aeacc9f388da8b71eb683c6c454fef9032efe43992471cc915267073f217",
+      "sha256": "54c4b428a86c0f501ca8549de61cfc887c6d6aa5b12d7b091462d96ba8f2fa03",
+      "bytes": 1638,
+      "blocks": 2
+    },
+    {
+      "file": "qtquick3d-attribution-proceduralsky.txt",
+      "title": "Godot Engine: ProceduralSky",
+      "url": "https://doc.qt.io/qt-6.11/qtquick3d-attribution-proceduralsky.html",
+      "upstream_html_sha256": "5ab1fb56fdf4f940e83f4a30499add9ea5f5115f23cb51c131f1804e75ea5e8a",
+      "sha256": "82d9b47bc93cd7ccbc58e01daefe6e40673facfc28d9272f4bf1067cdc470046",
+      "bytes": 1658,
+      "blocks": 2
+    },
+    {
+      "file": "qtquick3d-attribution-svgrepo-house-simple-bold.txt",
+      "title": "House Simple Bold",
+      "url": "https://doc.qt.io/qt-6.11/qtquick3d-attribution-svgrepo-house-simple-bold.html",
+      "upstream_html_sha256": "0c6254587a3e01e6f57a8dd556c4e491a47366e7edea93ee06c1e75dbc3e4d9d",
+      "sha256": "20f20b15478ccfd1b51f955de85533a1121fe62f15e5bc808b552199d7afb7c6",
+      "bytes": 1528,
+      "blocks": 2
+    },
+    {
+      "file": "qtquick3d-attribution-embree.txt",
+      "title": "Intel Embree, version 3.13.3",
+      "url": "https://doc.qt.io/qt-6.11/qtquick3d-attribution-embree.html",
+      "upstream_html_sha256": "c2a96e4c27fa39281e8ed85adf5237da6e6a3bc8250afbb8be04f80f87edaae7",
+      "sha256": "cdadf9f0e2af5e63dec32a75a26d019d19f27c1ff7ee6c452aff2c26ab501a1c",
+      "bytes": 11764,
+      "blocks": 2
+    },
+    {
+      "file": "qtquick3d-attribution-jnipp.txt",
+      "title": "Java Native Interface for C++, version 1.0.0",
+      "url": "https://doc.qt.io/qt-6.11/qtquick3d-attribution-jnipp.html",
+      "upstream_html_sha256": "cc312d419719764f8d09c75d96d01554a8de2f983022c3e76192c23dfa9e6f5b",
+      "sha256": "e4d9660aa1d85e209d137ade2220c5838e445d0bb5be52a05469ff58f9fa2026",
+      "bytes": 1520,
+      "blocks": 2
+    },
+    {
+      "file": "qtquick3d-attribution-jsoncpp.txt",
+      "title": "JsonCpp, version 1.9.6",
+      "url": "https://doc.qt.io/qt-6.11/qtquick3d-attribution-jsoncpp.html",
+      "upstream_html_sha256": "6c105614c36356e47370a89961c15c76c4f904cd375d17e2c72ad7246d903442",
+      "sha256": "83e47110977986e5cb6db3f5cf2772d586480c62c37fd05076b61335dfbe7df5",
+      "bytes": 3178,
+      "blocks": 2
+    },
+    {
+      "file": "qtquick3d-attribution-svgrepo-night-light-disabled.txt",
+      "title": "Night Light Disabled",
+      "url": "https://doc.qt.io/qt-6.11/qtquick3d-attribution-svgrepo-night-light-disabled.html",
+      "upstream_html_sha256": "fb1767fda1ae058d66c88aaedab37715f6de4f87613d2da0064b83d51216b6d1",
+      "sha256": "06342ba53263af3126ae4e19c3840b0af7e41f14fd716ed81966c7674a8c5183",
+      "bytes": 8054,
+      "blocks": 2
+    },
+    {
+      "file": "qtquick3d-attribution-assimp.txt",
+      "title": "Open Asset Import Library, version 6.0.5",
+      "url": "https://doc.qt.io/qt-6.11/qtquick3d-attribution-assimp.html",
+      "upstream_html_sha256": "76302c55b8951ce04fd5bab35814154bdd0b5474873f75f90f2f2028933f2459",
+      "sha256": "681573a39590ea5c9d5dc64a969f82c17301a04c3f1781e799159ecdb813f404",
+      "bytes": 1923,
+      "blocks": 2
+    },
+    {
+      "file": "qtquick3d-attribution-openxr.txt",
+      "title": "OpenXR SDK, version 1.1.54",
+      "url": "https://doc.qt.io/qt-6.11/qtquick3d-attribution-openxr.html",
+      "upstream_html_sha256": "9fa273675e1f4e629ca0da17e70282f8c78e3d5c7ed585f858c89c13339fb9e4",
+      "sha256": "758c7f177e950cd0fd51df3f535ec9b893c7211e75aabebc738a892ec3ec0277",
+      "bytes": 11853,
+      "blocks": 2
+    },
+    {
+      "file": "qtquick3d-attribution-svgrepo-right-arrow.txt",
+      "title": "Right Arrow Backup 2 SVG Vector",
+      "url": "https://doc.qt.io/qt-6.11/qtquick3d-attribution-svgrepo-right-arrow.html",
+      "upstream_html_sha256": "8ef160199a86e22fdb5397337af3dd56194548d25a8eb3c1370c1e008c4e7032",
+      "sha256": "9edc197271a2a19b21807280d95d9f9443096804eab6fd2eaa435a68f261995e",
+      "bytes": 7475,
+      "blocks": 2
+    },
+    {
+      "file": "qtquick3d-attribution-svgrepo-screen-shared.txt",
+      "title": "Screen Shared",
+      "url": "https://doc.qt.io/qt-6.11/qtquick3d-attribution-svgrepo-screen-shared.html",
+      "upstream_html_sha256": "48c59fb5e939d2fb36ac9ce4ae071cac0364f0b71b8ea51027ffc799fa881633",
+      "sha256": "4f0dacaffb363780195789668793ddfa758ae922a090cee8adf6a7b633d633c3",
+      "bytes": 8040,
+      "blocks": 2
+    },
+    {
+      "file": "qtquick3d-attribution-tinyexr.txt",
+      "title": "Tiny OpenEXR, version 1.0.13",
+      "url": "https://doc.qt.io/qt-6.11/qtquick3d-attribution-tinyexr.html",
+      "upstream_html_sha256": "cd418780181cf6638542b976d1aee5c1d20bd710ddaa4085feb400ab0f88611d",
+      "sha256": "5e85429791dd7f269421b3710d4803fbccc930be93bad4979ae60f6c0e975078",
+      "bytes": 2016,
+      "blocks": 2
+    },
+    {
+      "file": "qtquick3d-attribution-closest-point-on-triangle.txt",
+      "title": "closestPointOnTriangle",
+      "url": "https://doc.qt.io/qt-6.11/qtquick3d-attribution-closest-point-on-triangle.html",
+      "upstream_html_sha256": "e19002d723c262dae9aad0abaa266dedec364198a2fb125a443c5ec096e4cfdc",
+      "sha256": "3699790f473d18eb4ba86d69df8489fd417f5a312c59340c578db9c9b5cdaf03",
+      "bytes": 10851,
+      "blocks": 2
+    },
+    {
+      "file": "qtquick3d-attribution-meshoptimizer.txt",
+      "title": "meshoptimizer, version 1.0",
+      "url": "https://doc.qt.io/qt-6.11/qtquick3d-attribution-meshoptimizer.html",
+      "upstream_html_sha256": "26056ea93e60b1b606579888b3e5b8bd0fcf8062e1cc4fae21fdbb24ad9afacf",
+      "sha256": "e97856c0227831560d9ca94053f79c362376c17f764b43f5df7cb798f1584476",
+      "bytes": 1528,
+      "blocks": 2
+    },
+    {
+      "file": "qtquick3d-attribution-xatlas.txt",
+      "title": "xatlas, version 16ace528acd2cf1f16a7c0dde99c42c486488dbe",
+      "url": "https://doc.qt.io/qt-6.11/qtquick3d-attribution-xatlas.html",
+      "upstream_html_sha256": "b06abdf084e8cf628c3869a12bf02030c244cdb18dfa2b68b3568c08d071248c",
+      "sha256": "0ac2ee577f12381ba75a2544247b61b81c575f54b0d1394ce7f8d5e6163f7c26",
+      "bytes": 1545,
+      "blocks": 2
+    },
+    {
+      "file": "qtquick3dphysics-attribution-physx.txt",
+      "title": "NVIDIA PhysX SDK, version PhysX_4.1.2.29882248",
+      "url": "https://doc.qt.io/qt-6.11/qtquick3dphysics-attribution-physx.html",
+      "upstream_html_sha256": "f6390c8f31906ad663b9e307c9a17f6cf0625b9afc0ccedef7de231a27944a56",
+      "sha256": "9d0ae25faa6a2fbae965d28b9af04f6eb5707550b8e1c58ef9dc1968c4ff4f3b",
+      "bytes": 1972,
+      "blocks": 2
+    },
+    {
+      "file": "qtquickcontrols-attribution-shadow-angular-material.txt",
+      "title": "Shadow values from Angular Material",
+      "url": "https://doc.qt.io/qt-6.11/qtquickcontrols-attribution-shadow-angular-material.html",
+      "upstream_html_sha256": "dbcc00ea1fdae16cc38b78b745c8df6101868b0ec56c8506bc7ffe983f004d6e",
+      "sha256": "2a59412b87097a756fabd861c82d993cfef73df8860d03f8d00870e26304981f",
+      "bytes": 1550,
+      "blocks": 2
+    },
+    {
+      "file": "qtsql-attribution-sqlite.txt",
+      "title": "SQLite, version 3.53.4",
+      "url": "https://doc.qt.io/qt-6.11/qtsql-attribution-sqlite.html",
+      "upstream_html_sha256": "14c7de08d05d6c79de7b056750a455b0b84e8f5180f0e14e747fcd8a7409441d",
+      "sha256": "bb6789b0aeca28c90a192573568fb98efff5e6177946f9f1730fd4f311ca1f29",
+      "bytes": 733,
+      "blocks": 2
+    },
+    {
+      "file": "qtsvg-attribution-xsvg.txt",
+      "title": "XSVG",
+      "url": "https://doc.qt.io/qt-6.11/qtsvg-attribution-xsvg.html",
+      "upstream_html_sha256": "237388ef1841f4b164ab9dbdf454f4b5ae65662071913bf4418afdb44710ea14",
+      "sha256": "d759e24da8372c7613d2a9bc84d0cec3cbb17a6260df566bab45b468273151e7",
+      "bytes": 1607,
+      "blocks": 2
+    },
+    {
+      "file": "qtsensors-attribution-android-compass.txt",
+      "title": "Android getRotationMatrix and getOrientation",
+      "url": "https://doc.qt.io/qt-6.11/qtsensors-attribution-android-compass.html",
+      "upstream_html_sha256": "241f4699ee5a3512647bb2e9ef007c12d7c878467da24f4a51738ba58846d5b5",
+      "sha256": "77b54ba68ffeebe2c2a9161c680f29d8e9a69beda4a86c03729da5d1631c661f",
+      "bytes": 10758,
+      "blocks": 2
+    },
+    {
+      "file": "qtshadertools-attribution-spirvcross.txt",
+      "title": "SPIRV-Cross, version 998146d76fc5cbb2726f44c55e25fa28a573a782",
+      "url": "https://doc.qt.io/qt-6.11/qtshadertools-attribution-spirvcross.html",
+      "upstream_html_sha256": "30c56157ca50c30d7ed27470cf2791fab50e72f373fdfa3ddd8a424aa3ae0338",
+      "sha256": "b68bdc29fb78c690ce331e125c0f7c0c78b549ee0cd69e3ebb7a6cfa03e75ebb",
+      "bytes": 12272,
+      "blocks": 3
+    },
+    {
+      "file": "qtshadertools-attribution-glslang.txt",
+      "title": "glslang, version 16.1.0",
+      "url": "https://doc.qt.io/qt-6.11/qtshadertools-attribution-glslang.html",
+      "upstream_html_sha256": "c32c3f2a76d0ed959e619502c93359d45dae5db3ea253be1282e7548ee739c92",
+      "sha256": "d5c7b21bd83e2cdc414624a9ca79cc87c6615fb4ea6e6f754030c9fd44b61a6d",
+      "bytes": 55422,
+      "blocks": 2
+    },
+    {
+      "file": "qtspatialaudio-attribution-eigen.txt",
+      "title": "Eigen, version 5.1.0",
+      "url": "https://doc.qt.io/qt-6.11/qtspatialaudio-attribution-eigen.html",
+      "upstream_html_sha256": "20dbb38d9846777cb4898af3bfb6dd8d54cd1431ff85c62f69d33f46261799b6",
+      "sha256": "b8fcac9b42143c442b1e6f106d96f653968935cd8946eb1b4c6ddd0f5f8da739",
+      "bytes": 35185,
+      "blocks": 5
+    },
+    {
+      "file": "qtspatialaudio-attribution-resonance-audio.txt",
+      "title": "Resonance Audio, version e225aedb5ec76ca6a0fe7079c0b84dbcbb490553",
+      "url": "https://doc.qt.io/qt-6.11/qtspatialaudio-attribution-resonance-audio.html",
+      "upstream_html_sha256": "1deac471121032214aaa32ed159d67215456aa869d01eef98a473ae9d204f412",
+      "sha256": "8fb5f8e029d80ea06950cf37bd2b4f0ae30184ac062021f3974e39108a416b0d",
+      "bytes": 11820,
+      "blocks": 2
+    },
+    {
+      "file": "qtspatialaudio-attribution-pffft.txt",
+      "title": "pffft, version 02fe7715a5bf8bfd914681c53429600f94e0f536",
+      "url": "https://doc.qt.io/qt-6.11/qtspatialaudio-attribution-pffft.html",
+      "upstream_html_sha256": "b34ed95b0177ee7f174b4d6e2d7af8c9b6a0f3559593d60048d2fee2f0e774b8",
+      "sha256": "d6c2b11429195994398f20090b630f1f8a31dde6b9838a9cc96ca1f839ad275d",
+      "bytes": 2486,
+      "blocks": 2
+    },
+    {
+      "file": "qttestlib-attribution-catch2.txt",
+      "title": "Catch2, version 2.13.10",
+      "url": "https://doc.qt.io/qt-6.11/qttestlib-attribution-catch2.html",
+      "upstream_html_sha256": "467e64eec7beb102cd07071f0824e6dfe74350ca56ebda40de0e6958ae15cd34",
+      "sha256": "b65636b02cc9c426f20b447a9a472cffcf807ead1a09d4afbb32b30f2b075cac",
+      "bytes": 1795,
+      "blocks": 2
+    },
+    {
+      "file": "qttestlib-attribution-cycle.txt",
+      "title": "Cycle, version 3.3.11",
+      "url": "https://doc.qt.io/qt-6.11/qttestlib-attribution-cycle.html",
+      "upstream_html_sha256": "7797fac29882a2b745bd6673f9a5cb45ed7c88441e4c9c3b1382e24fecbc80dd",
+      "sha256": "b6825a25cdfcad77f103d06f7cfeb4449243e0f5293e6493fed43fb601abc46b",
+      "bytes": 1524,
+      "blocks": 2
+    },
+    {
+      "file": "qttestlib-attribution-linuxperf.txt",
+      "title": "Linux Performance Events, version 6.13",
+      "url": "https://doc.qt.io/qt-6.11/qttestlib-attribution-linuxperf.html",
+      "upstream_html_sha256": "532bb347994f41c17cf018091d80223af48744f125847b1bd66c4e481bdb7ea7",
+      "sha256": "1b8519eb409f25e8a3310b874c1b706c456a14fe3a0b96fc3aefa1a350ed1cc9",
+      "bytes": 19159,
+      "blocks": 2
+    },
+    {
+      "file": "qttestlib-attribution-valgrind.txt",
+      "title": "Valgrind, version 3.25.1",
+      "url": "https://doc.qt.io/qt-6.11/qttestlib-attribution-valgrind.html",
+      "upstream_html_sha256": "5587ab566efb72a96d530e6b2cd3f5c35cdb3cc8a431b331ee22b494089e1b0a",
+      "sha256": "1a8d766113f1b597fe4b600cd4e86664a001d987a1cde19a42d38b813410e25d",
+      "bytes": 2148,
+      "blocks": 2
+    },
+    {
+      "file": "qtvirtualkeyboard-attribution-openwnn.txt",
+      "title": "OpenWnn",
+      "url": "https://doc.qt.io/qt-6.11/qtvirtualkeyboard-attribution-openwnn.html",
+      "upstream_html_sha256": "e34634ef33aaaa42d00a9aa31299bb25de48939618472599f614339c4e9a46e1",
+      "sha256": "a4d370fed7684717748784006a1a02f5c499d31ebb5d46986afeaceafe8f784a",
+      "bytes": 10709,
+      "blocks": 2
+    },
+    {
+      "file": "qtvirtualkeyboard-attribution-pinyin.txt",
+      "title": "PinyinIME",
+      "url": "https://doc.qt.io/qt-6.11/qtvirtualkeyboard-attribution-pinyin.html",
+      "upstream_html_sha256": "7e3090f404dc3e860fe1f36825b8a203d11b9832847802fff705b58757977a91",
+      "sha256": "824127da0cb40e124025a81337d931ee8a11523271a4764c9076a3c4a95adb23",
+      "bytes": 12310,
+      "blocks": 2
+    },
+    {
+      "file": "qtvirtualkeyboard-attribution-tcime.txt",
+      "title": "Traditional Chinese IME (tcime)",
+      "url": "https://doc.qt.io/qt-6.11/qtvirtualkeyboard-attribution-tcime.html",
+      "upstream_html_sha256": "d5ed269b5187f4b3ccf81e37a88d2a49efd3800c6ed3ebaad239ec1606dbaef5",
+      "sha256": "3aac6e0bf887bae417f8d3a8e301ff1fdf98f9ead68e2c73c3b878235c8a7c58",
+      "bytes": 5063,
+      "blocks": 2
+    },
+    {
+      "file": "qtwaylandcompositor-attribution-presentation-time-xml.txt",
+      "title": "Presentation Time Protocol, version 1",
+      "url": "https://doc.qt.io/qt-6.11/qtwaylandcompositor-attribution-presentation-time-xml.html",
+      "upstream_html_sha256": "8127094a2e23fe73a9619c265bf4a0035411c85faac193bad765033ab61be92c",
+      "sha256": "28e89bd6a2e4fefd5c362b01d499f42929211d7fb4acd9b6149b9ff2b9dd1738",
+      "bytes": 1531,
+      "blocks": 2
+    },
+    {
+      "file": "qtwaylandcompositor-attribution-wayland-color-management-protocol.txt",
+      "title": "Wayland Color Management Protocol, version 1",
+      "url": "https://doc.qt.io/qt-6.11/qtwaylandcompositor-attribution-wayland-color-management-protocol.html",
+      "upstream_html_sha256": "cb9dd8d7df7d6fa75096830ba02842157400cb848b71c329e5d8a20326ad7ca6",
+      "sha256": "62a68ee384e080e6e1f5c2baaa1e595a96f459fa573e2b603666348b6fa18fd9",
+      "bytes": 1683,
+      "blocks": 2
+    },
+    {
+      "file": "qtwaylandcompositor-attribution-xdg-dialog-v1.txt",
+      "title": "Wayland Dialog Protocol, version 1",
+      "url": "https://doc.qt.io/qt-6.11/qtwaylandcompositor-attribution-xdg-dialog-v1.html",
+      "upstream_html_sha256": "d876be31db7802934eba14c1b856d73aea472fb76da88c94a219cd4ea9934283",
+      "sha256": "c6ff338337e4c1b396e6b291e2df8768b28038699092414d4c4e138c11716e7d",
+      "bytes": 1514,
+      "blocks": 2
+    },
+    {
+      "file": "qtwaylandcompositor-attribution-wayland-eglstream-controller.txt",
+      "title": "Wayland EGLStream Controller Protocol, version 1.1.1",
+      "url": "https://doc.qt.io/qt-6.11/qtwaylandcompositor-attribution-wayland-eglstream-controller.html",
+      "upstream_html_sha256": "e0f0b44ccc31a61cfb852679fc151f6beb0ba0e6611d79e809981092952028a1",
+      "sha256": "0780a955cdde80a7739ce4111d2657e95a52deec30013388a4b251bc20e02346",
+      "bytes": 1574,
+      "blocks": 2
+    },
+    {
+      "file": "qtwaylandcompositor-attribution-fractional-scale-v1.txt",
+      "title": "Wayland Fractional Scale Protocol, version 1",
+      "url": "https://doc.qt.io/qt-6.11/qtwaylandcompositor-attribution-fractional-scale-v1.html",
+      "upstream_html_sha256": "f4466178f873e4de1e995532efdf5e28636b80ef976fd5724bb1425529ef7311",
+      "sha256": "c9d37097d4b7011d9b524bc148c815ce2ab07ea70248a8e7650d54fce3399bc0",
+      "bytes": 1529,
+      "blocks": 2
+    },
+    {
+      "file": "qtwaylandcompositor-attribution-wayland-fullscreen-protocol.txt",
+      "title": "Wayland Fullscreen Shell Protocol, version unstable v1",
+      "url": "https://doc.qt.io/qt-6.11/qtwaylandcompositor-attribution-wayland-fullscreen-protocol.html",
+      "upstream_html_sha256": "b49a95ca49bef8825ea477df264d128870df87ce2314c63862c9eacf1ed871bc",
+      "sha256": "ab89fe8c519649e874a7117f5984a435ccac54493eda3bf6d299a867f54a9c40",
+      "bytes": 1607,
+      "blocks": 2
+    },
+    {
+      "file": "qtwaylandcompositor-attribution-wayland-ivi-extension-protocol.txt",
+      "title": "Wayland IVI Extension Protocol, version 1.9.1",
+      "url": "https://doc.qt.io/qt-6.11/qtwaylandcompositor-attribution-wayland-ivi-extension-protocol.html",
+      "upstream_html_sha256": "d44fce15eb9856899bfbb9e9fae082457f13ed1be89e4e4ff81ddb1b8d7a0a9b",
+      "sha256": "74a9e7e33e7a0eab25d599ef9e9efe75635ff118421be2cc7bf5d4e4e952adf0",
+      "bytes": 1634,
+      "blocks": 2
+    },
+    {
+      "file": "qtwaylandcompositor-attribution-appmenu.txt",
+      "title": "Wayland KDE DBus Menu Protocol, version 1",
+      "url": "https://doc.qt.io/qt-6.11/qtwaylandcompositor-attribution-appmenu.html",
+      "upstream_html_sha256": "a75a8b8aa56360870f56accfb51a502a5cb981b89ba3532d443fe5638646e65c",
+      "sha256": "0bfff8a8003a31c794764ce8c2de3a7bef3561751ce9b85fb64904b70c3027f3",
+      "bytes": 26363,
+      "blocks": 2
+    },
+    {
+      "file": "qtwaylandcompositor-attribution-wayland-linux-dmabuf-unstable-v1.txt",
+      "title": "Wayland Linux Dmabuf Unstable V1 Protocol, version unstable v1, version 3",
+      "url": "https://doc.qt.io/qt-6.11/qtwaylandcompositor-attribution-wayland-linux-dmabuf-unstable-v1.html",
+      "upstream_html_sha256": "9ee89269ec68e9460b47c98330771b25f683c6b773bed8808b71e8cfa6f871fb",
+      "sha256": "452ccc1815b6ba58e48f78a77a815720d77f963fc65501d165b7c3d5dccc1541",
+      "bytes": 1578,
+      "blocks": 2
+    },
+    {
+      "file": "qtwaylandcompositor-attribution-wayland-pointer-gestures-protocol.txt",
+      "title": "Wayland Pointer Gestures Protocol, version unstable v1, version 2",
+      "url": "https://doc.qt.io/qt-6.11/qtwaylandcompositor-attribution-wayland-pointer-gestures-protocol.html",
+      "upstream_html_sha256": "5eb8292593183bf941ae26a6df89ed2cd3cfe592d97e330d143163d103e44eb2",
+      "sha256": "acc1af5a561f592ee5f4a336db003f4f93c171ca39272793f6de19d51402617e",
+      "bytes": 1563,
+      "blocks": 2
+    },
+    {
+      "file": "qtwaylandcompositor-attribution-wayland-pointer-warp-protocol.txt",
+      "title": "Wayland Pointer Warp Protocol, version version 1",
+      "url": "https://doc.qt.io/qt-6.11/qtwaylandcompositor-attribution-wayland-pointer-warp-protocol.html",
+      "upstream_html_sha256": "246cc3bdbac6827e150cd3efde229d1e5d706b2913389587f81d5fdda3e51bfc",
+      "sha256": "c4e96601089c1f283136bb00cd57b9f99b110ced5a1c8526f15a77fe17f9df9a",
+      "bytes": 1636,
+      "blocks": 2
+    },
+    {
+      "file": "qtwaylandcompositor-attribution-wayland-primary-selection-protocol.txt",
+      "title": "Wayland Primary Selection Protocol, version 1",
+      "url": "https://doc.qt.io/qt-6.11/qtwaylandcompositor-attribution-wayland-primary-selection-protocol.html",
+      "upstream_html_sha256": "3bb8136881a5ee6d4d6fc63ba404ecc5d682af3c1cd8c5acc39332cc8e59c074",
+      "sha256": "d1a25705053b5f97d329ffb2b46afabad24a06065ed5ee6e6f058f063b04bf3f",
+      "bytes": 1544,
+      "blocks": 2
+    },
+    {
+      "file": "qtwaylandcompositor-attribution-wayland-protocol.txt",
+      "title": "Wayland Protocol, version 1.24.0",
+      "url": "https://doc.qt.io/qt-6.11/qtwaylandcompositor-attribution-wayland-protocol.html",
+      "upstream_html_sha256": "006127047d66785f4831d03c2e1787c27d77594ee4231faae210a46884ecb227",
+      "sha256": "678fb0b6acf08fb800b29d76ba018c1c5be2a0454b370e71d7e736e3f1b470ef",
+      "bytes": 1603,
+      "blocks": 2
+    },
+    {
+      "file": "qtwaylandcompositor-attribution-wayland-scaler-protocol.txt",
+      "title": "Wayland Scaler Protocol, version 2",
+      "url": "https://doc.qt.io/qt-6.11/qtwaylandcompositor-attribution-wayland-scaler-protocol.html",
+      "upstream_html_sha256": "04b4f91767df2dd75d647d097da5522c7ebfd8ee995223569438439158d55cb1",
+      "sha256": "e81510eed4f7c70b273b00b7b6a4dfe5d0067c1fc4ac8cf1d5944c5f46be1b82",
+      "bytes": 1529,
+      "blocks": 2
+    },
+    {
+      "file": "qtwaylandcompositor-attribution-wayland-session-management-protocol.txt",
+      "title": "Wayland Session Management Protocol, version experimental V1",
+      "url": "https://doc.qt.io/qt-6.11/qtwaylandcompositor-attribution-wayland-session-management-protocol.html",
+      "upstream_html_sha256": "2e73801377687440285ee48057d4c4a45374df799b80c79286fa9d877be04c52",
+      "sha256": "6c1e51bb9929b581c1c2a734b031f843be2d22d01677d7e905acf1a060a0cd7d",
+      "bytes": 1633,
+      "blocks": 2
+    },
+    {
+      "file": "qtwaylandcompositor-attribution-wayland-tablet-protocol.txt",
+      "title": "Wayland Tablet Protocol, version unstable v2, version 1",
+      "url": "https://doc.qt.io/qt-6.11/qtwaylandcompositor-attribution-wayland-tablet-protocol.html",
+      "upstream_html_sha256": "cf560af05c3f063f4666fb175d86f14cf890ca161c687812885b5bbea2a8b8af",
+      "sha256": "8882239ee3f2e72df6e369c958a365d7c34f7f54be6554a89154fff16f91d41a",
+      "bytes": 1596,
+      "blocks": 2
+    },
+    {
+      "file": "qtwaylandcompositor-attribution-wayland-text-input-unstable-v1.txt",
+      "title": "Wayland Text Input Protocol v1, version unstable v1",
+      "url": "https://doc.qt.io/qt-6.11/qtwaylandcompositor-attribution-wayland-text-input-unstable-v1.html",
+      "upstream_html_sha256": "9f8c352935ebaf86af718f7e8cbc1524604c66e937b6b64406b457a821910b0c",
+      "sha256": "c651d67834979e5953a0adb457321ac4dec99b4f9e504eae311b0bb2625bac6c",
+      "bytes": 1556,
+      "blocks": 2
+    },
+    {
+      "file": "qtwaylandcompositor-attribution-wayland-text-input-unstable-v2.txt",
+      "title": "Wayland Text Input Protocol v2, version unstable v2",
+      "url": "https://doc.qt.io/qt-6.11/qtwaylandcompositor-attribution-wayland-text-input-unstable-v2.html",
+      "upstream_html_sha256": "5adf036e59dc70cf7f30241939170f4b6d5bb762e539b017835655e80cd97aa4",
+      "sha256": "87a346097b9499efe51d0ea91e8ec56f3ed579325cde656b8d9b7ab49989ae77",
+      "bytes": 1638,
+      "blocks": 2
+    },
+    {
+      "file": "qtwaylandcompositor-attribution-wayland-text-input-unstable-v3.txt",
+      "title": "Wayland Text Input Protocol, version unstable v3",
+      "url": "https://doc.qt.io/qt-6.11/qtwaylandcompositor-attribution-wayland-text-input-unstable-v3.html",
+      "upstream_html_sha256": "ecb1050def37685f331336ae0130be49e0095a000158a7d64e6dde68b74ed205",
+      "sha256": "3ca1eb6fcf6ed6625e6846e016ca69de28dcb8ba13010f567d7942526c196009",
+      "bytes": 1668,
+      "blocks": 2
+    },
+    {
+      "file": "qtwaylandcompositor-attribution-wayland-viewporter-protocol.txt",
+      "title": "Wayland Viewporter Protocol, version 1",
+      "url": "https://doc.qt.io/qt-6.11/qtwaylandcompositor-attribution-wayland-viewporter-protocol.html",
+      "upstream_html_sha256": "9c26d27c63f4de64fa3ac3c20e9f739a9c86297ca0c1be9034b978255625b685",
+      "sha256": "172bab678314b87307819ad4135cb101e4a4fe74ca9a24094d7c59b9c56e9bc8",
+      "bytes": 1537,
+      "blocks": 2
+    },
+    {
+      "file": "qtwaylandcompositor-attribution-xdg-foreign-unstable-v2.txt",
+      "title": "Wayland XDG Foreign Protocol, version 1",
+      "url": "https://doc.qt.io/qt-6.11/qtwaylandcompositor-attribution-xdg-foreign-unstable-v2.html",
+      "upstream_html_sha256": "24905e64c3bd8cb595baa7a7b3f7cc0e1f7ad3f1bb203aba762d29201964fa5c",
+      "sha256": "5d7bcde81bf0952f52d7102d8024442419897845c2bc08d2ba0550dcdd4de271",
+      "bytes": 1531,
+      "blocks": 2
+    },
+    {
+      "file": "qtwaylandcompositor-attribution-wayland-xdg-output-protocol.txt",
+      "title": "Wayland XDG Output Protocol, version unstable v1, version 3",
+      "url": "https://doc.qt.io/qt-6.11/qtwaylandcompositor-attribution-wayland-xdg-output-protocol.html",
+      "upstream_html_sha256": "f8ab7eef9d2f7875c6a3055746da95862b0c4e712aefd53410ff2a16a102af06",
+      "sha256": "28244c5b036cbff23e01f6d24fc600b967190e596c6aa195febc86408e7756e7",
+      "bytes": 1550,
+      "blocks": 2
+    },
+    {
+      "file": "qtwaylandcompositor-attribution-wayland-xdg-shell-protocol.txt",
+      "title": "Wayland XDG Shell Protocol, version 1.18",
+      "url": "https://doc.qt.io/qt-6.11/qtwaylandcompositor-attribution-wayland-xdg-shell-protocol.html",
+      "upstream_html_sha256": "4125d118730741e3c41e0268087d3b29692403370fbc8deb3fe7399a4342086c",
+      "sha256": "51f7dead35682b9169c6037d55c51aa104ae4a158ee32658d8ce901c073cce2b",
+      "bytes": 1752,
+      "blocks": 2
+    },
+    {
+      "file": "qtwaylandcompositor-attribution-wayland-xdg-system-bell-protocol.txt",
+      "title": "Wayland XDG System Bell Protocol, version 1.18",
+      "url": "https://doc.qt.io/qt-6.11/qtwaylandcompositor-attribution-wayland-xdg-system-bell-protocol.html",
+      "upstream_html_sha256": "50a3497e5358a607c1a698620e370ed44ea98f406d1c9b1651040cf836dbdb94",
+      "sha256": "7622f28de41ba04d4800e775ab4595648f52b1668a399fc0742fa4a6b6b93b23",
+      "bytes": 1543,
+      "blocks": 2
+    },
+    {
+      "file": "qtwaylandcompositor-attribution-wayland-xdg-activation.txt",
+      "title": "Wayland xdg-activation Protocol, version unstable v1, version 1",
+      "url": "https://doc.qt.io/qt-6.11/qtwaylandcompositor-attribution-wayland-xdg-activation.html",
+      "upstream_html_sha256": "639d91114da685a2ebb2c7d3bbc76341512730756ab8e3bf3139b141249e5653",
+      "sha256": "e071740af6ee625b4f97836a6f8928487cdc5ccbbac11a30cb1acd86de8f1aa2",
+      "bytes": 1640,
+      "blocks": 2
+    },
+    {
+      "file": "qtwaylandcompositor-attribution-wayland-xdg-decoration-protocol.txt",
+      "title": "Wayland xdg-decoration Protocol, version unstable v1, version 1",
+      "url": "https://doc.qt.io/qt-6.11/qtwaylandcompositor-attribution-wayland-xdg-decoration-protocol.html",
+      "upstream_html_sha256": "0b6250812dbf1d7c3aa9b0f531eef6f557ca928d44d4d1d90a2fcfe4fd2c52d8",
+      "sha256": "d0f05b49695f785198ded05046d114e27101e66b2f756de55fd3ca43789041d0",
+      "bytes": 1555,
+      "blocks": 2
+    },
+    {
+      "file": "qtwaylandcompositor-attribution-wayland-xdg-toplevel-icon-protocol.txt",
+      "title": "Wayland xdg-toplevel-icon Protocol, version version 1",
+      "url": "https://doc.qt.io/qt-6.11/qtwaylandcompositor-attribution-wayland-xdg-toplevel-icon-protocol.html",
+      "upstream_html_sha256": "b2bef3740870a850e7acb4bd288b43a7ae1329cf18939343f0d7aaac21f6ed3d",
+      "sha256": "55bb79eab64625804c7dd909ce14d1d9df927bb0f1ad9326803aaac8b5b8636e",
+      "bytes": 1575,
+      "blocks": 2
+    },
+    {
+      "file": "qtwaylandcompositor-attribution-wlr-data-control-unstable-v1-protocol.txt",
+      "title": "Wlr Data Control Unstable V1 Protocol, version 2",
+      "url": "https://doc.qt.io/qt-6.11/qtwaylandcompositor-attribution-wlr-data-control-unstable-v1-protocol.html",
+      "upstream_html_sha256": "2721a54151eb3914dde18d59784d54f733308542745021824c5d1a7b717b8243",
+      "sha256": "ae7cbd0136b3c3a016cabc749e40d72e8a036320fffb5646a6889e7ab54bdaf5",
+      "bytes": 1583,
+      "blocks": 2
+    },
+    {
+      "file": "qt-attribution-llvm.txt",
+      "title": "LLVM Attribution",
+      "url": "https://doc.qt.io/qt-6.11/qt-attribution-llvm.html",
+      "upstream_html_sha256": "9c12e9e1f52909015f62076f97b701ff99ca6025140fc9d00353caacfce5ba8a",
+      "sha256": "e3ab24406639d86d6bc3d8964c1d8c5e1914aed7feed4376834ed3fd55240086",
+      "bytes": 6222,
+      "blocks": 4
+    },
+    {
+      "file": "qt-attribution-cmake-macros.txt",
+      "title": "Macros for Building with CMake",
+      "url": "https://doc.qt.io/qt-6.11/qt-attribution-cmake-macros.html",
+      "upstream_html_sha256": "15a8831bf6deec2476be70041971e137028aa8ebe1a3027579e2fb6d9866468e",
+      "sha256": "4fb4a19b8a7503761b605179af97e73da47fc2a2aa67deee93573f470d41b9eb",
+      "bytes": 1886,
+      "blocks": 2
+    },
+    {
+      "file": "qt-attribution-llvmpipe.txt",
+      "title": "Mesa llvmpipe",
+      "url": "https://doc.qt.io/qt-6.11/qt-attribution-llvmpipe.html",
+      "upstream_html_sha256": "43e4cf8c2846bc0736e14e7779112f6b7a343889be6a768e829e0c560cc84d10",
+      "sha256": "eac6bf7e53ea203b33401162b2aed7911ecc5d8f3a037825eb621ad5f310dcb4",
+      "bytes": 3973,
+      "blocks": 4
+    },
+    {
+      "file": "qt-for-python-third-party.txt",
+      "title": "Licenses Used in Qt for Python",
+      "url": "https://doc.qt.io/qtforpython-6.11/licenses.html",
+      "upstream_html_sha256": "0f05eb3689bafeda82da80767c62ac39f092d435d0c24130c52e88512045c7b5",
+      "sha256": "c3202cfb5bb479841a54fb597ba4f6bd362c6e1cda7ff80a89290cf286c52faf",
+      "bytes": 21598,
+      "blocks": 12
+    }
+  ]
+}

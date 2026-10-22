@@ -1,0 +1,52 @@
+name: Public Windows verification
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.14'
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '22'
+      - name: Verify exact public source inventory
+        run: npm run check:public
+      - name: Install locked browser test dependencies
+        run: |
+          npm ci
+          npx playwright install chromium
+      - name: Install locked Python dependencies
+        run: |
+          $taskVenv = Join-Path $env:RUNNER_TEMP 'ct-venv'
+          python -m venv $taskVenv
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          $taskPython = Join-Path $taskVenv 'Scripts/python.exe'
+          & $taskPython -m pip install -r components/desktop-pet/requirements.lock.txt
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          "CODEX_TOOLS_PYTHON=$taskPython" >> $env:GITHUB_ENV
+      - name: Verify wallpaper installation and recovery in isolation
+        run: npm test
+      - name: Verify user image builder
+        run: npm run test:wallpaper-assets
+      - name: Verify setup without changing user state
+        run: npm run test:setup
+      - name: Verify pet without original artwork
+        run: npm run test:pet
+      - name: Build asset-free Windows application
+        run: |
+          & $env:CODEX_TOOLS_PYTHON tools/build_public_package.py
+        working-directory: components/desktop-pet
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: CodexTools-Windows
+          path: components/desktop-pet/dist-public/
+          if-no-files-found: error

@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "name": "Codex Tools",
+  "repository": "https://github.com/AlphaUntilReset/codex-tools",
+  "components": [
+    {"id":"codex-wallpaper","name":"Custom wallpaper","path":"components/codex-wallpaper","readme":"components/codex-wallpaper/README.md"},
+    {"id":"desktop-pet","name":"Desktop pet","path":"components/desktop-pet","readme":"components/desktop-pet/README.md"}
+  ]
+}

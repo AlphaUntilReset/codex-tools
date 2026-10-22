@@ -1,0 +1,16 @@
+{
+  "name": "codex-tools",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Unofficial desktop companion tools for Codex: a desktop pet and custom wallpaper",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "check:public": "node tools/check-public.cjs",
+    "test": "node components/codex-wallpaper/源码/run-tests.cjs",
+    "test:pet": "node tools/test-pet.cjs",
+    "test:setup": "powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File tools/verify-setup.ps1",
+    "test:wallpaper-assets": "node tools/test-wallpaper-assets.cjs"
+  },
+  "devDependencies": { "playwright": "1.64.0" }
+}

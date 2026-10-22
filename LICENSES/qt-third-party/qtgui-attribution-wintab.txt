@@ -1,0 +1,14 @@
+Wintab API
+
+Upstream attribution source: https://doc.qt.io/qt-6.11/qtgui-attribution-wintab.html
+Qt release: 6.11.2
+Retrieved: 2026-10-22
+
+The following copyright and license blocks are reproduced from the upstream
+attribution page, in source order. HTML markup is removed and entities decoded;
+license wording is unchanged. This notice does not imply the component is shipped.
+
+Copyright 1991-1998 by LCS/Telegraphics.
+
+The text and information contained in this file may be freely used,
+copied, or distributed without compensation or licensing restrictions.
