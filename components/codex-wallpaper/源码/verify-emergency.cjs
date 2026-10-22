@@ -90,7 +90,11 @@ End Class\n`;
   // and the printed guard index says which skip fired.
   const emergencySource=fs.readFileSync(path.join(__dirname,'Emergency-Start.ps1'),'utf8').replace(/^\ufeff/,'');
   let skipTrace=0;
-  fs.writeFileSync(emergency,'\ufeff'+emergencySource
+  const guardProbe=emergencySource.includes('if (($taskOwner.ExecutablePath -ne $taskExe')
+    ? emergencySource.replace(/if \(\(\$taskOwner\.ExecutablePath -ne \$taskExe/,()=>"Write-Output ('G1:'+($taskOwner.ExecutablePath -ne $taskExe)+':'+($taskOwner.ExecutablePath -notmatch $taskPackagePattern)+':'+($taskOwner.CommandLine -match '(?:^|\\s)--type(?:=|\\s)')+' exe='+$taskExe+' owner='+$taskOwner.ExecutablePath);\n        if (($taskOwner.ExecutablePath -ne $taskExe")
+    : emergencySource;
+  if(guardProbe===emergencySource)throw Error('Guard probe anchor missing');
+  fs.writeFileSync(emergency,'\ufeff'+guardProbe
     .replace(/catch\s*\{\s*\}/g,'catch { throw }')
     .replace(/\{ continue \}/g,()=>`{ Write-Output 'SKIP-${++skipTrace}'; continue }`));
   const wrapper=path.join(fixture,'verify.ps1');
