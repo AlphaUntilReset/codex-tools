@@ -35,7 +35,7 @@
     "components/codex-wallpaper/源码/test-browser.cjs": "459464d093bd300f4ab8fd24a20d838cf4f36e52138fa33e22c4046d3a4e1718",
     "components/codex-wallpaper/源码/theme-runtime.mjs": "9cdb84811facd1adcdeb19aee6f8479519172d61a85369d3e123c6a9a0d35d09",
     "components/codex-wallpaper/源码/theme.template.css": "ab11afd3d53aa624049ddb0b80af3c827e80ce456db1f4f610c99a2043ad0bf5",
-    "components/codex-wallpaper/源码/verify-emergency.cjs": "7aa3108235451e424d3c17e491764ab03cb8d74abfd8b3257cead360583a80b5",
+    "components/codex-wallpaper/源码/verify-emergency.cjs": "077b33af04dee48cf7d951c46b14c82293503f65c62ca5cdc822209ae4dd089b",
     "components/codex-wallpaper/源码/verify-instance-lock.mjs": "8072c577121fb36dd50389d71bb96cceef9618a0cb274dda53cef4d9b686d809",
     "components/codex-wallpaper/源码/verify-native-entry.ps1": "9a8c599acae840188c4f6db3553766063f4347626a434e224aad689b7d5bbe74",
     "components/codex-wallpaper/源码/verify-startup-protection.ps1": "11fff42ba3b9a520ec44492e3853ad1f243938dfb6a96f82f266f95c4c6155f6",

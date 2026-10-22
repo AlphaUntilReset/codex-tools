@@ -86,8 +86,13 @@ End Class\n`;
   fs.writeFileSync(path.join(fixture,'AppxManifest.xml'),'<Package><Applications><Application Id="App" Executable="app/codex.exe" /></Applications></Package>');
   // Recovery is best-effort in production. In this isolated fixture, surface
   // every caught exception so a host/runtime failure cannot look like success.
+  // Number each silent target skip the same way: a skipped cleanup fails here,
+  // and the printed guard index says which skip fired.
   const emergencySource=fs.readFileSync(path.join(__dirname,'Emergency-Start.ps1'),'utf8').replace(/^\ufeff/,'');
-  fs.writeFileSync(emergency,'\ufeff'+emergencySource.replace(/catch\s*\{\s*\}/g,'catch { throw }'));
+  let skipTrace=0;
+  fs.writeFileSync(emergency,'\ufeff'+emergencySource
+    .replace(/catch\s*\{\s*\}/g,'catch { throw }')
+    .replace(/\{ continue \}/g,()=>`{ Write-Output 'SKIP-${++skipTrace}'; continue }`));
   const wrapper=path.join(fixture,'verify.ps1');
   fs.writeFileSync(wrapper,'\ufeff'+`$ErrorActionPreference='Stop'
 function Get-AppxPackage {param($Name,$ErrorAction);[pscustomobject]@{InstallLocation=${quote(fixture)};PackageFamilyName='OpenAI.Codex_2p2nqsd0c76g0'}}
@@ -105,7 +110,10 @@ function Invoke-RestMethod {param($Uri,$TimeoutSec,$ErrorAction);if($Uri -ne 'ht
   const result=spawnSync(ps,['-NoProfile','-ExecutionPolicy','Bypass','-File',wrapper],{encoding:'utf8',timeout:10000});
   assert(result.status===0,'Emergency fixture execution failed: '+(result.error?.message||'')+result.stdout+result.stderr);
   const state=await page.evaluate(()=>({theme:!!document.getElementById('codex-sunfaded-local-theme'),palette:!!document.getElementById('codex-sidebar-palette-filter'),unrelated:!!document.getElementById('unrelated')}));
-  assert(!state.theme&&!state.palette&&state.unrelated,'.NET cleanup failed or affected unrelated content: '+JSON.stringify(state));
+  if(state.theme||state.palette||!state.unrelated){
+   const after=await(await fetch('http://127.0.0.1:19328/json/list')).json();
+   assert(false,'.NET cleanup failed or affected unrelated content: '+JSON.stringify({state,targets:after.map(t=>({type:t.type,url:t.url,ws:t.webSocketDebuggerUrl})),fixtureStdout:result.stdout,fixtureStderr:result.stderr}));
+  }
   checks.push({test:'real_dotnet_cleanup_renamed_manifest_executable_isolated_chrome',passed:true,unrelatedPreserved:true});
  }finally{await browser.close();}
  fs.writeFileSync(path.join(__dirname,'..','记录','emergency-verification.json'),JSON.stringify({fixture,realClientUntouched:true,checks},null,2));
