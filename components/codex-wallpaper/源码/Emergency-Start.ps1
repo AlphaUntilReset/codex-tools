@@ -31,7 +31,11 @@ try {
     $taskFamily=$taskPackage.PackageFamilyName -split '_',2
     $taskPackagePattern='\\WindowsApps\\'+[regex]::Escape($taskFamily[0])+'_[^\\]+_'+[regex]::Escape($taskFamily[1])+'\\app\\(?:'+(($taskNames | ForEach-Object {[regex]::Escape($_)}) -join '|')+')$'
     foreach ($taskOwner in @(Get-CimInstance Win32_Process -Filter $taskFilter -ErrorAction Stop)) {
-        if (($taskOwner.ExecutablePath -ne $taskExe -and $taskOwner.ExecutablePath -notmatch $taskPackagePattern) -or $taskOwner.CommandLine -match '(?:^|\s)--type(?:=|\s)') { continue }
+        # WMI may report 8.3 short paths (e.g. RUNNER~1); normalize before comparing
+        # with the registered executable, or unrelated-looking paths skip cleanup.
+        $taskOwnerPath=$taskOwner.ExecutablePath
+        if ($taskOwnerPath) { $taskOwnerPath=[IO.Path]::GetFullPath($taskOwnerPath) }
+        if (($taskOwnerPath -ne $taskExe -and $taskOwnerPath -notmatch $taskPackagePattern) -or $taskOwner.CommandLine -match '(?:^|\s)--type(?:=|\s)') { continue }
         if ($taskOwner.CommandLine -notmatch '(?:^|\s)--remote-debugging-port(?:=|\s+)([0-9]+)(?:\s|$)') { continue }
         $taskPort=[int]$Matches[1]
         if ($taskPort -lt 1024 -or $taskPort -gt 65535) { continue }
